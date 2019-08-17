@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { MatCardModule, MatTabsModule } from '@angular/material';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+import { GreeterComponent } from './components/greeter/greeter.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     AppComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    GreeterComponent
   ],
   imports: [
     BrowserModule,

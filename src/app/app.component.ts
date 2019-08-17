@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Shehriyar Qureshi | 🦁 Full Stack Software Engineer';
+  title = 'Shehriyar Qureshi | Full Stack Software Engineer';
 
   public constructor(private titleService: Title) {
     this.setTitle();

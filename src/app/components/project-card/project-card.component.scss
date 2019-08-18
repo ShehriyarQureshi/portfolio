@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-card {
+    margin: 5vh;
+    width: 100%;
+    height: 50vh;
+}
+
+.project-image {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

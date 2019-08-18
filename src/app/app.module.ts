@@ -10,6 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { MatCardModule, MatTabsModule } from '@angular/material';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { GreeterComponent } from './components/greeter/greeter.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
 
 
 @NgModule({
@@ -18,7 +23,12 @@ import { GreeterComponent } from './components/greeter/greeter.component';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    GreeterComponent
+    GreeterComponent,
+    IntroductionComponent,
+    ProjectsComponent,
+    SkillsComponent,
+    ProjectCardComponent,
+    SkillCardComponent
   ],
   imports: [
     BrowserModule,

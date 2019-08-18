@@ -1,0 +1,12 @@
+<div class="projects-container text-center">
+  <div class="content">
+    <span class="section-heading">Projects</span>
+    <hr>
+    <div class="grid-container">
+      <div class="project-card" *ngFor="let project of projectService.projects">
+        <div class="project-image" [style.background-image]="'url('+project.image+')'">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

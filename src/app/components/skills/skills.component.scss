@@ -1,0 +1,21 @@
+.skills-container {
+    height: 100vh;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.skill-types-container {
+    height: 50%;
+    // margin: 0 50vh 0 50vh;
+    // wid
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+    margin-top: 5vh;
+}

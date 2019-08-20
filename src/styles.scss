@@ -32,18 +32,40 @@ section {
 
 hr {
     height: 0.5vh;
-    width: 25vh;
+    width: 10%;
     background-color: black;
     margin-bottom: 10vh;
-    margin-top: 0;
+    margin-top: 1vh;
 }
 
 .section-heading {
     font-size: 5vh;
     font-weight: bold;
     display: block;
+    animation-duration: 1s;
+    animation-name: slide-in-left;
 }
 
 .content {
     margin-top: 5vh;
+}
+
+@keyframes slide-in-left {
+    from {
+        margin-right: 30%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        margin-left: 30%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+    }
 }

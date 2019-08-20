@@ -13,7 +13,6 @@ import { GreeterComponent } from './components/greeter/greeter.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
-import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -28,7 +27,6 @@ import { HttpClientModule } from '@angular/common/http';
     IntroductionComponent,
     ProjectsComponent,
     SkillsComponent,
-    ProjectCardComponent,
     SkillCardComponent
   ],
   imports: [

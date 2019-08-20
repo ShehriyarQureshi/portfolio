@@ -1,10 +1,27 @@
 <div class="projects-container text-center">
   <div class="content">
-    <span class="section-heading">Projects</span>
-    <hr>
+    <span #test class="section-heading" [@slideInLeft]="isVisible ? '*' : 'void'">Projects</span>
+    <hr #test2 [@hrExtend]="isVisible2 ? '*' : 'void'">
+    <!-- <hr #test2> -->
+    <!-- I have to work this out, this should be done with *ngFor to make code simpler -->
     <div class="grid-container">
-      <div class="project-card" *ngFor="let project of projectService.projects">
-        <div class="project-image" [style.background-image]="'url('+project.image+')'">
+      <div>
+        <div class="project-card">
+          <div class="project-card-inner">
+            <div class="project-card-front">
+              <div class="project-image">
+                <div class="project-name">
+                  <div class="backdrop">
+                    <span>Cannot be disclosed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-back">
+              <span class="back-card-title">Cannot be disclosed</span>
+              <span class="back-description">Cannot be disclosed</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

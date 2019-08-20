@@ -7,10 +7,10 @@ export class ProjectService {
 
   projects: any = [
     {
-      name: 'PTCL CPS',
+      name: 'Cannot be disclosed',
       description: `wohooo`,
-      link: 'https://support.tplmaps.com/cps-portal/',
-      image: 'assets/images/ptcl-cps.jpg'
+      link: '',
+      image: 'assets/images/some-project.jpg'
     }
   ];
 

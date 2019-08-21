@@ -23,28 +23,6 @@
     color: ivory;
 }
 
-.fa-twitter {
-    background: #55ACEE;
-}
-
-.fa-linkedin {
-    // background-color: rgb(0, 119, 181);
-    background-color: #000000;
-}
-
-.fa-github {
-    background-color: #000000;
-}
-
-.fa-envelope {
-    // background-color: rgb(255, 0, 149);
-    background-color: #000000;
-}
-
-.fa-medium {
-    background-color: rgb(0, 0, 0);
-}
-
 .hero-image {
     height: 100vh;
     background-position: center;
@@ -74,4 +52,12 @@ span {
 
 hr {
     background-color: white;
+}
+
+.project-talk-container {
+    margin-top: 5%;
+}
+
+.project-talk-button {
+    margin: 0 1em 0 1em;
 }

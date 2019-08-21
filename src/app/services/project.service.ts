@@ -10,7 +10,8 @@ export class ProjectService {
       name: 'Cannot be disclosed',
       description: `wohooo`,
       link: '',
-      image: 'assets/images/some-project.jpg'
+      // test image
+      image: 'assets/images/employeeManager.png'
     }
   ];
 

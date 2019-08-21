@@ -33,8 +33,8 @@ export class ProjectsComponent implements OnInit {
 
   @HostListener('window:scroll')
   public inView(): void {
-    console.log('math', this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height);
-    console.log('height', window.innerHeight);
+    // console.log('math', this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height);
+    // console.log('height', window.innerHeight);
     if (this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height < window.innerHeight
       && this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible = true;

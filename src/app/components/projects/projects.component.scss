@@ -6,8 +6,10 @@
 
 .grid-container {
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20em;
+    margin: 0 15em 0 15em;
+    grid-gap: 1em;
 }
 
 .slide-in {

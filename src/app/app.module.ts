@@ -15,6 +15,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     IntroductionComponent,
     ProjectsComponent,
     SkillsComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,

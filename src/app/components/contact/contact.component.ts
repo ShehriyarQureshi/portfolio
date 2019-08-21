@@ -1,11 +1,20 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
+import { fullHeight } from 'contact.animation';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
+  animations: [
+    fullHeight
+  ]
 })
 export class ContactComponent implements OnInit {
+
+  @ViewChild('projectTalk')
+  public projectButtons: ElementRef;
+
+  public isVisible = false;
 
   links: any = {
     github: 'https://github.com/ShehriyarQureshi',
@@ -18,6 +27,19 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  @HostListener('window:scroll')
+  public inView(): void {
+    console.log('math', this.projectButtons.nativeElement.getBoundingClientRect().bottom);
+    console.log('height', window.innerHeight);
+    if (this.projectButtons.nativeElement.getBoundingClientRect().top
+      + this.projectButtons.nativeElement.getBoundingClientRect().height < window.innerHeight
+      && this.projectButtons.nativeElement.getBoundingClientRect().top
+      + this.projectButtons.nativeElement.getBoundingClientRect().height > 0) {
+      this.isVisible = true;
+    }
+
   }
 
 }

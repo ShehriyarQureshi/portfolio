@@ -38,6 +38,8 @@ export class ContactComponent implements OnInit {
       && this.projectButtons.nativeElement.getBoundingClientRect().top
       + this.projectButtons.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible = true;
+    } else {
+      this.isVisible = false;
     }
 
   }

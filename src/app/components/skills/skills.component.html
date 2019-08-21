@@ -1,7 +1,7 @@
 <div class="skills-container text-center">
   <div class="content">
-    <span class="section-heading">Skills</span>
-    <hr>
+    <span #heading class="section-heading" [@slideInLeft]="isHeadingVisible ? '*' : 'void'">Skills</span>
+    <hr #underline [@hrExtend]="isUnderlineVisible ? '*' : 'void'">
     <div class="d-flex justify-content-center skill-types-container">
       <app-skill-card [skillsList]="skillService.frontendSkills" [skillTitle]="'Front-End'"></app-skill-card>
       <app-skill-card [skillsList]="skillService.backendSkills" [skillTitle]="'Back-End'"></app-skill-card>

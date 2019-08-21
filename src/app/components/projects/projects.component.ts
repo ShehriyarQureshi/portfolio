@@ -25,7 +25,6 @@ export class ProjectsComponent implements OnInit {
 
   constructor(
     public projectService: ProjectService,
-    public el: ElementRef
   ) { }
 
   ngOnInit() {

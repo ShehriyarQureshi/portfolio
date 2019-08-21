@@ -26,8 +26,15 @@ export let hrExtend = trigger('hrExtend', [
 
 export let fullHeight = trigger('fullHeight', [
     state('void', style({ opacity: 1 })),
-    state('*', style({ opacity: 1, clipPath: 'polygon(50% 0%, 100% 0%, 100% 100%, 0 100%, 0 0%)', backgroundColor: '#673AB7' })),
-    transition(':enter, :leave', [
+    state('*', style({ opacity: 1 })),
+    state('contactAnimation', style({
+        opacity: 1, clipPath: 'polygon(50% 0%, 100% 0%, 100% 100%, 0 100%, 0 0%)',
+        backgroundColor: '#673AB7'
+    })),
+    transition(':enter', [
+        animate('0.5s')
+    ]),
+    transition('* => contactAnimation', [
         animate('0.5s', keyframes([
             style({ clipPath: 'polygon(50% 0%, 100% 0%, 100% 100%, 0 100%, 0 0%)', backgroundColor: '#673AB7' }),
         ]))

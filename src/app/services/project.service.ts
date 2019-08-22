@@ -16,7 +16,7 @@ export class ProjectService {
       name: 'historia',
       description: ``,
       link: '',
-      image: ''
+      image: 'assets/images/historia.jpg'
     }
   ];
 

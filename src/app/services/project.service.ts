@@ -7,11 +7,16 @@ export class ProjectService {
 
   projects: any = [
     {
-      name: 'Cannot be disclosed',
-      description: `wohooo`,
+      name: 'TPL Project',
+      description: `NA`,
+      link: 'NA',
+      image: 'assets/images/tpl_project.jpg'
+    },
+    {
+      name: 'historia',
+      description: ``,
       link: '',
-      // test image
-      image: 'assets/images/employeeManager.png'
+      image: ''
     }
   ];
 

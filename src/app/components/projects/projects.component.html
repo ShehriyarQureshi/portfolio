@@ -3,10 +3,8 @@
     <span #test class="section-heading" [@slideInLeft]="isVisible ? '*' : 'void'">Projects</span>
     <hr #test2 [@hrExtend]="isVisible2 ? '*' : 'void'">
     <div class="grid-container">
-      <div *ngFor="let project of projectService.projects">
-        <app-project-card [projectDetails]="project">
-        </app-project-card>
-      </div>
+      <app-project-card *ngFor="let project of projectService.projects" [projectDetails]="project">
+      </app-project-card>
     </div>
   </div>
 </div>

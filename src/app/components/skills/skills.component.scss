@@ -1,13 +1,7 @@
 .skills-container {
-    height: 100vh;
+    margin-bottom: 1em;
+    height: 46em;
     background-color: #ffffff;
-    overflow: auto;
-}
-
-.skill-types-container {
-    height: 50%;
-    // margin: 0 50vh 0 50vh;
-    // wid
 }
 
 .grid-container {
@@ -17,5 +11,6 @@
 }
 
 .content {
-    margin-top: 5vh;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }

@@ -1,14 +1,17 @@
 .skill-card {
-    // overflow: hidden;
     height: 100%;
-    width: 20em;
+    width: 90%;
     margin-left: 1em;
     margin-right: 1em;
+    @media only screen and (max-width: 999px) {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
 }
 
 .skill-list {
     font-size: 1.5em;
     list-style-type: none;
     padding: 0;
-    // line-height: 2rem;
 }

@@ -4,6 +4,13 @@
     background-color: #ffffff;
 }
 
+.skill-card-selector {
+    width: 26%;
+    @media only screen and (max-width: 999px) {
+        width: 100%;
+    }
+}
+
 .grid-container {
     display: grid;
     justify-items: center;
@@ -13,4 +20,10 @@
 .content {
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.skills-flex {
+    @media only screen and (max-width: 999px) {
+        flex-direction: column;
+    }
 }

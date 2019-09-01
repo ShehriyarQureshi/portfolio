@@ -23,20 +23,18 @@
 
 .heading {
     display: block;
-    word-break: break-all;
     font-size: 3.5em;
     text-shadow: 3px 3px #000000;
     @media only screen and (max-width: 700px) {
-    font-size: 2em;
+        font-size: 2em;
     }
 }
 
 .sub-heading {
     display: block;
-    word-break: break-all;
     font-size: 3em;
     text-shadow: 2px 3px #000000;
     @media only screen and (max-width: 700px) {
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
 }

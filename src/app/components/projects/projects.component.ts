@@ -14,11 +14,11 @@ import { slideInLeft, slideInRight, hrExtend } from 'src/app/animations/project.
 })
 export class ProjectsComponent implements OnInit {
 
-  @ViewChild('test')
-  public test: ElementRef;
+  @ViewChild('heading')
+  public heading: ElementRef;
 
-  @ViewChild('test2')
-  public test2: ElementRef;
+  @ViewChild('underline')
+  public underline: ElementRef;
 
   public isVisible = false;
   public isVisible2 = false;
@@ -45,12 +45,14 @@ export class ProjectsComponent implements OnInit {
 
   @HostListener('window:scroll')
   public inView(): void {
-    if (this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height > 0) {
+    if (this.heading.nativeElement.getBoundingClientRect().top + this.heading.nativeElement.getBoundingClientRect().height
+      < window.innerHeight
+      && this.heading.nativeElement.getBoundingClientRect().top + this.heading.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible = true;
     }
-    if (this.test2.nativeElement.getBoundingClientRect().top + this.test2.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.test2.nativeElement.getBoundingClientRect().top + this.test2.nativeElement.getBoundingClientRect().height > 0) {
+    if (this.underline.nativeElement.getBoundingClientRect().top + this.underline.nativeElement.getBoundingClientRect().height
+      < window.innerHeight
+      && this.underline.nativeElement.getBoundingClientRect().top + this.underline.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible2 = true;
     }
 

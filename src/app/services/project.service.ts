@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProjectService {
 
-  projects: any = [
+  projects: Array<any> = [
     {
       name: 'TPL Project',
       description: `NA`,
@@ -21,4 +21,8 @@ export class ProjectService {
   ];
 
   constructor() { }
+
+  public projectsLength(): number {
+    return this.projects.length;
+  }
 }

@@ -4,11 +4,19 @@
     overflow: hidden;
 }
 
-.grid-container {
+.grid-container-less {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-template-rows: 20em;
     grid-gap: 1em;
+}
+
+.grid-container-more {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-gap: 1em;
+    @media only screen and (max-width: 999px) {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
 }
 
 .slide-in {
@@ -17,7 +25,7 @@
 }
 
 .content {
-    height: 40em;
+    height: auto;
     margin: 5em 5em 5em 5em;
 }
 

@@ -2,7 +2,7 @@
   <div class="content">
     <span #test class="section-heading" [@slideInLeft]="isVisible ? '*' : 'void'">Projects</span>
     <hr #test2 [@hrExtend]="isVisible2 ? '*' : 'void'">
-    <div class="grid-container">
+    <div [ngClass]="{'grid-container-less': shouldCenterGrid === true, 'grid-container-more': shouldCenterGrid === false}">
       <app-project-card *ngFor="let project of projectService.projects" [projectDetails]="project">
       </app-project-card>
     </div>

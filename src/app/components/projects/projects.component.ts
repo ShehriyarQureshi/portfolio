@@ -23,17 +23,28 @@ export class ProjectsComponent implements OnInit {
   public isVisible = false;
   public isVisible2 = false;
 
+  public projectLength: number = undefined;
+
+  public shouldCenterGrid = false;
+
   constructor(
     public projectService: ProjectService,
   ) { }
 
   ngOnInit() {
+    this.shouldCenterGrid = this.getProjectSize();
+  }
+
+  public getProjectSize(): boolean {
+    if (this.projectService.projectsLength() <= 2) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   @HostListener('window:scroll')
   public inView(): void {
-    // console.log('math', this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height);
-    // console.log('height', window.innerHeight);
     if (this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height < window.innerHeight
       && this.test.nativeElement.getBoundingClientRect().top + this.test.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible = true;

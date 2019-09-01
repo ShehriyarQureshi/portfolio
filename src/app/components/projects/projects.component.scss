@@ -6,8 +6,11 @@
 
 .grid-container-less {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 1em;
+    @media only screen and (max-width: 999px) {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
 }
 
 .grid-container-more {

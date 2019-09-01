@@ -1,13 +1,14 @@
 .contact-container {
     height: auto;
     background-color: #000000;
-    overflow: auto;
-    clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 0 100%, 0 20%);
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
 }
 
 .content {
     margin-top: 5vh;
-    height: 40em;
+    height: auto;
+    margin-bottom: 5vh;
 }
 
 .mat-icon-button {

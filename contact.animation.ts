@@ -27,7 +27,7 @@ export let hrExtend = trigger('hrExtend', [
 export let fullHeight = trigger('fullHeight', [
     state('void', style({ opacity: 1 })),
     state('*', style({
-        opacity: 1, clipPath: 'polygon(50% 0%, 100% 20%, 100% 100%, 0 100%, 0 20%)'
+        opacity: 1, clipPath: 'polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%)'
     })),
     state('contactAnimation', style({
         opacity: 1, clipPath: 'polygon(50% 0%, 100% 0%, 100% 100%, 0 100%, 0 0%)',
@@ -43,7 +43,7 @@ export let fullHeight = trigger('fullHeight', [
     ]),
     transition('contactAnimation => *', [
         animate('0.5s', keyframes([
-            style({ clipPath: 'polygon(50% 0%, 100% 20%, 100% 100%, 0 100%, 0 20%)', backgroundColor: '#000000' }),
+            style({ clipPath: 'polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%)', backgroundColor: '#000000' }),
         ]))
     ]),
 ]);

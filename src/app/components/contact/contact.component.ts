@@ -31,8 +31,6 @@ export class ContactComponent implements OnInit {
 
   @HostListener('window:scroll')
   public inView(): void {
-    console.log('math', this.projectButtons.nativeElement.getBoundingClientRect().bottom);
-    console.log('height', window.innerHeight);
     if (this.projectButtons.nativeElement.getBoundingClientRect().top
       + this.projectButtons.nativeElement.getBoundingClientRect().height < window.innerHeight
       && this.projectButtons.nativeElement.getBoundingClientRect().top

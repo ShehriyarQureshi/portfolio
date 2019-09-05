@@ -7,9 +7,9 @@ export class ProjectService {
 
   projects: Array<any> = [
     {
-      name: 'TPL Project',
-      description: `wabba labba dub dub`,
-      image: 'assets/images/tpl_project.jpg'
+      name: 'TPL Maps Project',
+      description: `Information cannot be disclosed as of now.`,
+      image: 'assets/images/tpl_maps_project.jpg'
     },
     {
       name: 'historia',

@@ -5,10 +5,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { MatCardModule, MatTabsModule } from '@angular/material';
+import { MatCardModule, MatTabsModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+import { GreeterComponent } from './components/greeter/greeter.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 
 @NgModule({
@@ -16,7 +23,13 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     AppComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    GreeterComponent,
+    IntroductionComponent,
+    ProjectsComponent,
+    SkillsComponent,
+    SkillCardComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +37,9 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     AppRoutingModule,
     MatCardModule,
     MatTabsModule,
-    AnimateOnScrollModule.forRoot()
+    MatIconModule,
+    HttpClientModule,
+    MatButtonModule
   ],
   providers: [AboutComponent],
   bootstrap: [AppComponent]

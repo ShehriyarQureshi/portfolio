@@ -1,0 +1,14 @@
+<mat-card class="skill-card mat-elevation-z5">
+  <mat-card-title>
+    <div>
+      <span class="skill-title">{{ skillTitle }}</span>
+    </div>
+  </mat-card-title>
+  <mat-card-content>
+    <div>
+      <ul class="skill-list">
+        <li *ngFor="let skill of skillsList">{{ skill }}</li>
+      </ul>
+    </div>
+  </mat-card-content>
+</mat-card>

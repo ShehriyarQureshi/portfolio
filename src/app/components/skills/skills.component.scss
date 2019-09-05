@@ -1,0 +1,29 @@
+.skills-container {
+    margin-bottom: 1em;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.skill-card-selector {
+    width: 26%;
+    @media only screen and (max-width: 999px) {
+        width: 100%;
+    }
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.skills-flex {
+    @media only screen and (max-width: 999px) {
+        flex-direction: column;
+    }
+}

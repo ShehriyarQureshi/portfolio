@@ -1,0 +1,24 @@
+.introduction {
+    height: 100vh;
+    background-color: #f7f7f7;
+    overflow: auto;
+}
+
+.slide-in {
+    animation-name: slide-in;
+    animation-duration: 1s;
+}
+
+.content {
+    margin-top: 10vh;
+}
+
+@keyframes slide-in {
+    from {
+        margin-right: 30%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+    }
+}

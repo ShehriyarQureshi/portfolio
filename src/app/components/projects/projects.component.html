@@ -1,0 +1,10 @@
+<div class="projects-container text-center">
+  <div class="content">
+    <span #heading class="section-heading" [@slideInLeft]="isVisible ? '*' : 'void'">Projects</span>
+    <hr #underline [@hrExtend]="isVisible2 ? '*' : 'void'">
+    <div [ngClass]="{'grid-container-less': shouldCenterGrid === true, 'grid-container-more': shouldCenterGrid === false}">
+      <app-project-card *ngFor="let project of projectService.projects" [projectDetails]="project">
+      </app-project-card>
+    </div>
+  </div>
+</div>

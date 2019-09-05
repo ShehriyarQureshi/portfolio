@@ -1,0 +1,17 @@
+<div class="contact-container text-center" [@fullHeight]="isVisible ? 'contactAnimation' : '*'">
+  <div class="content">
+    <span class="section-heading">Contact</span>
+    <hr>
+    <div #socialLinks>
+      <a href="{{ links.github }}" class="fa fa-github"></a>
+      <a href="{{ links.medium }}" class="fa fa-medium"></a>
+      <a href="{{ links.linkedin }}" class="fa fa-linkedin"></a>
+      <a href="{{ links.email }}" class="fa fa-envelope"></a>
+    </div>
+    <div #projectTalk class="project-talk-container">
+      <a href="assets/downloads/shehriyarQureshi.pdf" download="">
+        <button class="btn btn-outline-primary resume-button">Download Resume</button>
+      </a>
+    </div>
+  </div>
+</div>

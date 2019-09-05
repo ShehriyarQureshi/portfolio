@@ -1,8 +1,8 @@
 import { state, transition, animate, trigger, style } from '@angular/animations';
 
 export let slideInLeft = trigger('slideInLeft', [
-    state('void', style({ opacity: 0, marginRight: '30%', fontSize: '2em' })),
-    // state('*', style({})),
+    state('void', style({ opacity: 0, marginRight: '30%', fontSize: '1em' })),
+    state('*', style({})),
     transition(':enter, :leave', [
         animate('1s')
     ])

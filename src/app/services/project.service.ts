@@ -8,14 +8,13 @@ export class ProjectService {
   projects: Array<any> = [
     {
       name: 'TPL Project',
-      description: `NA`,
-      link: 'NA',
+      description: `wabba labba dub dub`,
       image: 'assets/images/tpl_project.jpg'
     },
     {
       name: 'historia',
-      description: ``,
-      link: '',
+      description: `Python module which adds support for temporal and history tables in SQLite.`,
+      link: 'https://github.com/ShehriyarQureshi/historia',
       image: 'assets/images/historia.jpg'
     }
   ];

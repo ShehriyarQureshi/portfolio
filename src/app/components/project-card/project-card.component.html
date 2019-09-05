@@ -1,7 +1,17 @@
-<div class="project-card">
-  <div class="image" [style.background-image]="backgroundImageValue">
-    <div class="project-name">
-      <span>{{ projectDetails.name }}</span>
+<mat-card class="project-card">
+  <mat-card-title>
+    <div>
+      <div class="image" [style.background-image]="backgroundImageValue">
+      </div>
     </div>
-  </div>
-</div>
+  </mat-card-title>
+  <mat-card-content>
+    <div id="headings">
+      <span class="project-name">{{projectDetails.name}}</span>
+      <span class="project-description">{{ projectDetails.description }}</span>
+    </div>
+    <div *ngIf="isLinkPresent" id="link-icon-container">
+      <a href="{{ projectDetails.link }}" class="fa fa-external-link"></a>
+    </div>
+  </mat-card-content>
+</mat-card>

@@ -5,6 +5,7 @@
 }
 
 .grid-container-less {
+    margin: 0 1em 0 1em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 1em;
@@ -14,6 +15,7 @@
 }
 
 .grid-container-more {
+    margin: 0 1em 0 1em;
     display: grid;
     grid-template-columns: repeat(3, minmax(240px, 1fr));
     grid-gap: 1em;
@@ -29,7 +31,7 @@
 
 .content {
     height: auto;
-    margin: 5em 5em 5em 5em;
+    margin-bottom: 1em;
 }
 
 .section-heading {

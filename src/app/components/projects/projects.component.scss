@@ -9,10 +9,16 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 1em;
-    @media only screen and (max-width: 750px) {
+    @media only screen and (min-width: 360px) and (max-width: 750px) {
         margin: 0;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
+
+    @media only screen and (max-width: 360px) {
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
 }
 
 .grid-container-more {

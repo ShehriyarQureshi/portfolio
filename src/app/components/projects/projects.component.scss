@@ -9,8 +9,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 1em;
-    @media only screen and (max-width: 999px) {
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    @media only screen and (max-width: 750px) {
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
 }
 
@@ -19,8 +20,9 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(240px, 1fr));
     grid-gap: 1em;
-    @media only screen and (max-width: 999px) {
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    @media only screen and (max-width: 750px) {
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
 }
 

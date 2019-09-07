@@ -15,11 +15,3 @@ export let slideInRight = trigger('slideInRight', [
         animate('0.7s ease-out')
     ])
 ]);
-
-export let test = trigger('test', [
-    state('void', style({ opacity: 0, marginLeft: '30%' })),
-    state('*', style({ opacity: 1, marginLeft: '0%' })),
-    transition(':enter, :leave', [
-        animate('0.5s')
-    ])
-]);

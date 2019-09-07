@@ -11,7 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
-import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { GreeterComponent } from './components/greeter/greeter.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { ProjectsComponent } from './components/projects/projects.component';

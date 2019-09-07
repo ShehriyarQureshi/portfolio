@@ -14,10 +14,10 @@ import { hrExtend } from 'src/app/animations/project.animation';
 })
 export class SkillsComponent implements OnInit {
 
-  @ViewChild('heading')
+  @ViewChild('heading', { static: true })
   public heading: ElementRef;
 
-  @ViewChild('underline')
+  @ViewChild('underline', { static: true })
   public underline: ElementRef;
 
   public isHeadingVisible = false;

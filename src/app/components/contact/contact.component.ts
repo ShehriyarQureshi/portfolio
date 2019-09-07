@@ -11,7 +11,7 @@ import { fullHeight } from 'contact.animation';
 })
 export class ContactComponent implements OnInit {
 
-  @ViewChild('projectTalk')
+  @ViewChild('projectTalk', { static: true })
   public projectButtons: ElementRef;
 
   public isVisible = false;

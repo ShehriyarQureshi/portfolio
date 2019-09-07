@@ -14,10 +14,10 @@ import { slideInLeft, slideInRight, hrExtend } from 'src/app/animations/project.
 })
 export class ProjectsComponent implements OnInit {
 
-  @ViewChild('heading')
+  @ViewChild('heading', { static: true })
   public heading: ElementRef;
 
-  @ViewChild('underline')
+  @ViewChild('underline', { static: true })
   public underline: ElementRef;
 
   public isVisible = false;

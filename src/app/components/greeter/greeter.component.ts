@@ -2,6 +2,7 @@ import { Component, OnInit, HostListener, ElementRef, ViewChild, Renderer2, Afte
 import { Observable, of, Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
+import { DetailService } from 'src/app/services/detail.service';
 
 @Component({
   selector: 'app-greeter',
@@ -14,7 +15,9 @@ import { slideInLeft, slideInRight } from 'src/app/animations/greeter.animation'
 })
 export class GreeterComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public detailService: DetailService
+  ) { }
 
   ngOnInit() {
   }

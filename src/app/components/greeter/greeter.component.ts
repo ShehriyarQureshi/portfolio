@@ -1,7 +1,6 @@
-import { Component, OnInit, HostListener, ElementRef, ViewChild, Renderer2, AfterViewInit, OnDestroy } from '@angular/core';
-import { Observable, of, Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
-import { slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { slideInDown, slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
+import { DetailService } from 'src/app/services/detail.service';
 
 @Component({
   selector: 'app-greeter',
@@ -9,14 +8,26 @@ import { slideInLeft, slideInRight } from 'src/app/animations/greeter.animation'
   styleUrls: ['./greeter.component.scss'],
   animations: [
     slideInLeft,
-    slideInRight
+    slideInRight,
+    slideInDown
   ]
 })
 export class GreeterComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild('scroll-div', { static: true })
+  public scrollDiv: ElementRef;
+
+  public showScrollDiv = false;
+
+  constructor(
+    public detailService: DetailService
+  ) { }
 
   ngOnInit() {
+  }
+
+  public startScrollDivAnimation() {
+    this.showScrollDiv = true;
   }
 
 }

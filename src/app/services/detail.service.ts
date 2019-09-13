@@ -5,11 +5,11 @@ import { Injectable } from '@angular/core';
 })
 export class DetailService {
 
-  about: any = {
+  public about: any = {
     name: 'Shehriyar Qureshi',
     status: 'Web Full Stack Engineer',
-    deliverables: undefined,
-    introduction: undefined
+    heading: `Hello, I'm Shehriyar Qureshi`,
+    subHeading: `I use modern technologies to develop software that helps businesses evolve.`,
   };
 
   constructor() { }

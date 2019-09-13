@@ -1,6 +1,10 @@
 <div class="hero-image">
   <div class="hero-text">
-    <span class="heading" @slideInLeft>Hello, I'm Shehriyar Qureshi</span>
-    <span class="sub-heading" @slideInRight>and I develop Software.</span>
+    <span class="heading" [@slideInLeft] (@slideInLeft.done)="startScrollDivAnimation()">{{ detailService.about.heading }}</span>
+    <span class="sub-heading" @slideInRight>{{ detailService.about.subHeading }}</span>
+  </div>
+  <div id="scroll-div" [@slideInDown]="showScrollDiv ? '*' : 'void'">
+    <span>Scroll for more</span>
+    <span class="fa fa-angle-double-down"></span>
   </div>
 </div>

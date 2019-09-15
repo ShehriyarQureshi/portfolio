@@ -23,3 +23,11 @@ export let slideInDown = trigger('slideInDown', [
         animate('1s ease-out')
     ])
 ]);
+
+export let fadeIn = trigger('fadeIn', [
+    state('void', style({ opacity: 0 })),
+    state('*', style({ opacity: 1 })),
+    transition(':enter, :leave', [
+        animate('1s ease-out')
+    ])
+]);

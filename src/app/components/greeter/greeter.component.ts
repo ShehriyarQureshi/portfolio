@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { slideInDown, slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
+import { slideInDown, slideInLeft, slideInRight, fadeIn } from 'src/app/animations/greeter.animation';
 import { DetailService } from 'src/app/services/detail.service';
 
 @Component({
@@ -9,7 +9,8 @@ import { DetailService } from 'src/app/services/detail.service';
   animations: [
     slideInLeft,
     slideInRight,
-    slideInDown
+    slideInDown,
+    fadeIn
   ]
 })
 export class GreeterComponent implements OnInit {
@@ -28,6 +29,14 @@ export class GreeterComponent implements OnInit {
 
   public startScrollDivAnimation() {
     this.showScrollDiv = true;
+  }
+
+  public launchLink(projectType: string) {
+    if (projectType === 'website') {
+      window.open('https://forms.gle/MLEL5r4RY2HpecE67');
+    } else if (projectType === 'webapp') {
+      window.open('https://forms.gle/3vktQ5fdFG7vF18q9');
+    }
   }
 
 }

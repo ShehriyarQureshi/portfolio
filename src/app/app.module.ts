@@ -18,6 +18,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -41,7 +43,8 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     MatTabsModule,
     MatIconModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AboutComponent],
   bootstrap: [AppComponent]

@@ -47,13 +47,14 @@
 
 #scroll-div {
     font-size: 1em;
-    width: 100%;
+    width: auto;
     text-align: center;
     position: absolute;
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
 }
 
 .contact-buttons {
@@ -85,4 +86,8 @@
 .fa {
     font-size: 2em;
     display: block;
+}
+
+.fa:hover {
+    cursor: pointer;
 }

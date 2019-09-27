@@ -51,3 +51,13 @@ hr {
 button {
   text-transform: uppercase;
 }
+
+// scrollbar
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10%;
+}

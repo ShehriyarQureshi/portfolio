@@ -20,7 +20,7 @@ export let slideInDown = trigger('slideInDown', [
     state('void', style({ opacity: 1, marginTop: '100%' })),
     state('*', style({ opacity: 1 })),
     transition(':enter, :leave', [
-        animate('500ms ease-out')
+        animate('1s ease-out')
     ])
 ]);
 

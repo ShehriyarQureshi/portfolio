@@ -19,6 +19,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './home/home.component';
+import { FabComponent } from './components/fab/fab.component';
 
 
 
@@ -33,7 +34,8 @@ import { HomeComponent } from './home/home.component';
     ProjectsComponent,
     SkillsComponent,
     SkillCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    FabComponent
   ],
   imports: [
     BrowserModule,

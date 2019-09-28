@@ -1,17 +1,16 @@
-<div class="hero-image">
-  <div class="hero-text">
-    <span class="heading" [@slideInLeft]
-      (@slideInLeft.done)="startScrollDivAnimation()">{{ detailService.about.heading }}</span>
-    <span class="sub-heading" @slideInRight>{{ detailService.about.subHeading }}</span>
-  </div>
-  <div class="contact-buttons" @fadeIn>
-    <span id="contact-text">Contact me for a project</span>
-    <div class="d-flex justify-content-center">
-      <button mat-raised-button class="project-button" (click)="launchLink('website')">I want a website</button>
-      <button mat-raised-button class="project-button" (click)="launchLink('webapp')">I want a web app</button>
+<mat-card class="greeter-surface justify-content-center mat-elevation-z10" [@slideInDown]>
+  <div class="hero-image">
+    <div class="hero-text">
+      <span class="heading" [@slideInLeft]
+        (@slideInLeft.done)="startScrollDivAnimation()">{{ detailService.about.heading }}</span>
+      <span class="sub-heading" @slideInRight>{{ detailService.about.subHeading }}</span>
+    </div>
+    <div class="contact-buttons" @fadeIn>
+      <span id="contact-text">Contact me for a project</span>
+      <div class="d-flex justify-content-center button-flex">
+        <button mat-raised-button class="project-button" (click)="launchLink('website')">{{ websiteText }}</button>
+        <button mat-raised-button class="project-button" (click)="launchLink('webapp')">{{ webAppText }}</button>
+      </div>
     </div>
   </div>
-  <div id="scroll-div" [@slideInDown]="showScrollDiv ? '*' : 'void'">
-    <span class="fa fa-angle-double-down"></span>
-  </div>
-</div>
+</mat-card>

@@ -14,36 +14,10 @@ import { hrExtend } from 'src/app/animations/project.animation';
 })
 export class SkillsComponent implements OnInit {
 
-  @ViewChild('heading', { static: true })
-  public heading: ElementRef;
-
-  @ViewChild('underline', { static: true })
-  public underline: ElementRef;
-
-  public isHeadingVisible = false;
-  public isUnderlineVisible = false;
-
   constructor(
     public skillService: SkillService
   ) { }
 
   ngOnInit() {
   }
-
-  @HostListener('window:scroll')
-  public inView(): void {
-    if (this.heading.nativeElement.getBoundingClientRect().top
-      + this.heading.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.heading.nativeElement.getBoundingClientRect().top + this.heading.nativeElement.getBoundingClientRect().height > 0) {
-      this.isHeadingVisible = true;
-    }
-    if (this.underline.nativeElement.getBoundingClientRect().top
-      + this.underline.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.underline.nativeElement.getBoundingClientRect().top + this.underline.nativeElement.getBoundingClientRect().height > 0) {
-      this.isUnderlineVisible = true;
-    }
-
-  }
-
-
 }

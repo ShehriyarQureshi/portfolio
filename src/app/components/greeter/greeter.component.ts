@@ -16,11 +16,6 @@ import { BUTTON_TEXT } from 'src/app/global';
 })
 export class GreeterComponent implements OnInit {
 
-  @ViewChild('scroll-div', { static: true })
-  public scrollDiv: ElementRef;
-
-  public showScrollDiv = false;
-
   constructor(
     public detailService: DetailService
   ) { }
@@ -34,10 +29,6 @@ export class GreeterComponent implements OnInit {
 
   public get webAppText(): string {
     return BUTTON_TEXT.WEB_APP;
-  }
-
-  public startScrollDivAnimation() {
-    this.showScrollDiv = true;
   }
 
   public launchLink(projectType: string) {

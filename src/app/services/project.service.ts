@@ -9,7 +9,8 @@ export class ProjectService {
     {
       name: 'TPL Maps Project',
       description: `Information cannot be disclosed as of now.`,
-      image: 'assets/images/tpl_maps_project.jpg'
+      image: 'assets/images/tpl_maps_project.jpg',
+      link: 'https://tplmaps.com'
     },
     {
       name: 'historia',

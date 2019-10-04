@@ -1,7 +1,8 @@
-<mat-card class="project-card">
+<mat-card class="project-card mat-elevation-z3">
   <mat-card-title>
     <div>
       <div class="image" [style.background-image]="backgroundImageValue">
+        <img src="../../../{{ projectDetails.awards.image }}" alt="" *ngIf="projectDetails.awards" class="award">
       </div>
     </div>
   </mat-card-title>

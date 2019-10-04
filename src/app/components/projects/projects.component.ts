@@ -14,15 +14,6 @@ import { slideInLeft, slideInRight, hrExtend } from 'src/app/animations/project.
 })
 export class ProjectsComponent implements OnInit {
 
-  @ViewChild('heading', { static: true })
-  public heading: ElementRef;
-
-  @ViewChild('underline', { static: true })
-  public underline: ElementRef;
-
-  public isVisible = false;
-  public isVisible2 = false;
-
   public projectLength: number = undefined;
 
   public shouldCenterGrid = false;
@@ -42,20 +33,4 @@ export class ProjectsComponent implements OnInit {
       return false;
     }
   }
-
-  @HostListener('window:scroll')
-  public inView(): void {
-    if (this.heading.nativeElement.getBoundingClientRect().top + this.heading.nativeElement.getBoundingClientRect().height
-      < window.innerHeight
-      && this.heading.nativeElement.getBoundingClientRect().top + this.heading.nativeElement.getBoundingClientRect().height > 0) {
-      this.isVisible = true;
-    }
-    if (this.underline.nativeElement.getBoundingClientRect().top + this.underline.nativeElement.getBoundingClientRect().height
-      < window.innerHeight
-      && this.underline.nativeElement.getBoundingClientRect().top + this.underline.nativeElement.getBoundingClientRect().height > 0) {
-      this.isVisible2 = true;
-    }
-
-  }
-
 }

@@ -1,5 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
@@ -12,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FabComponent } from './components/fab/fab.component';
 import { GreeterComponent } from './components/greeter/greeter.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
@@ -33,7 +35,8 @@ import { HomeComponent } from './home/home.component';
     ProjectsComponent,
     SkillsComponent,
     SkillCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    FabComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +48,7 @@ import { HomeComponent } from './home/home.component';
     MatCardModule,
     HttpClientModule,
     MatButtonModule,
+    FlexLayoutModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AboutComponent],

@@ -4,7 +4,10 @@
   margin: 0 auto;
   margin-top: 5vh;
   padding: 0;
+  border-radius: 0.5em;
+  overflow: hidden;
 }
+
 .hero-image {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../../../assets/images/hero.jpg);

@@ -21,6 +21,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './home/home.component';
+import { RecommendationsComponent } from './components/recommendations/recommendations.component';
+import { RecommendationCardComponent } from './components/recommendation-card/recommendation-card.component';
 
 
 
@@ -36,7 +38,9 @@ import { HomeComponent } from './home/home.component';
     SkillsComponent,
     SkillCardComponent,
     ProjectCardComponent,
-    FabComponent
+    FabComponent,
+    RecommendationsComponent,
+    RecommendationCardComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +50,7 @@ import { HomeComponent } from './home/home.component';
     MatTabsModule,
     MatIconModule,
     MatCardModule,
+    MatTabsModule,
     HttpClientModule,
     MatButtonModule,
     FlexLayoutModule,

@@ -51,6 +51,7 @@ hr {
 
 button {
   text-transform: uppercase;
+  outline: 0 !important;
 }
 
 // scrollbar
@@ -59,6 +60,6 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: purple; 
-    border-radius: 10%;
+  background: purple;
+  border-radius: 10%;
 }

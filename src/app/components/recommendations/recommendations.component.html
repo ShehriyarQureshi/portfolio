@@ -1,0 +1,12 @@
+<div class="text-center">
+    <h1 class="section-heading">Reviews</h1>
+</div>
+<div class="container-fluid">
+    <div class="row" *ngIf="isSingleRecommendation">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4" *ngFor="let recommendation of recommendationService.recommendations">
+            <app-recommendation-card [recommendationDetails]="recommendation"></app-recommendation-card>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+</div>

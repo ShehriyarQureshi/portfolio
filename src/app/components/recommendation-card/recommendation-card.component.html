@@ -1,0 +1,10 @@
+<mat-card class="mat-elevation-z3">
+    <mat-card-header>
+        <div mat-card-avatar class="recommendation-avatar" [style.background-image]="backgroundImageValue"></div>
+        <mat-card-title>{{recommendationDetails.name}}</mat-card-title>
+        <mat-card-subtitle>{{ recommendationDetails.role }} @ {{ recommendationDetails.company }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <span class="mat-subtitle-1">{{ recommendationDetails.text }}</span>
+    </mat-card-content>
+</mat-card>

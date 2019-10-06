@@ -17,10 +17,10 @@ export let slideInRight = trigger('slideInRight', [
 ]);
 
 export let slideInDown = trigger('slideInDown', [
-    state('void', style({ opacity: 1, marginTop: '100%' })),
+    state('void', style({ opacity: 1, marginTop: '200vh' })),
     state('*', style({ opacity: 1 })),
     transition(':enter, :leave', [
-        animate('1s ease-out')
+        animate('1s cubic-bezier(0.4, 0.0, 0.2, 1)')
     ])
 ]);
 

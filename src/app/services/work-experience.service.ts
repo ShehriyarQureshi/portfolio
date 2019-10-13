@@ -21,8 +21,8 @@ export class WorkExperienceService {
       achievements: [
         `Discovered, Analyzed and fixed major memory leaks`,
         `Discovered and patched security vulnerabilities`,
-        `Developed RESTful WebServices`,
-        `Helped coworkes to increase their knowledge in Version Control and using *nix command line`
+        `Developed RESTful web services`,
+        `Helped coworkers to increase their knowledge in Version Control and using *nix command line`
       ],
     },
     {

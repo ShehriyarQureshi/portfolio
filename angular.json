@@ -29,14 +29,10 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/roboto-fontface/css/roboto/sass/roboto-fontface.scss",
-              "node_modules/animate.css/animate.min.css",
               "node_modules/font-awesome/scss/font-awesome.scss",
               "src/styles.scss"
             ],
-            "scripts": [
-              "node_modules/typeit/dist/typeit.min.js"
-            ],
+            "scripts": [],
             "es5BrowserSupport": true
           },
           "configurations": {

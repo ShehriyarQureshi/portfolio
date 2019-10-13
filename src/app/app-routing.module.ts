@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { InteractiveMapComponent } from './components/interactive-map/interactive-map.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'work-history', component: InteractiveMapComponent },
 ];
 
 @NgModule({

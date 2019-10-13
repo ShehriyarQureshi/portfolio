@@ -3,10 +3,7 @@ body,
 html {
   height: 100%;
   margin: 0 auto;
-}
-
-body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -63,4 +60,8 @@ button {
 ::-webkit-scrollbar-thumb {
   background: purple;
   border-radius: 10%;
+}
+
+.nopadding {
+  padding: 0 !important;
 }

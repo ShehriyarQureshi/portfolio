@@ -1,14 +1,28 @@
 <mat-card class="greeter-surface justify-content-center mat-elevation-z10" [@slideInDown]>
   <div class="hero-image">
     <div class="hero-text">
-      <span class="heading">{{ detailService.about.heading }}</span>
-      <span class="sub-heading">{{ detailService.about.subHeading }}</span>
-    </div>
-    <div class="contact-buttons" @fadeIn>
-      <span id="contact-text">Contact me for a project</span>
-      <div class="d-flex justify-content-center button-flex">
-        <button mat-raised-button class="project-button" (click)="launchLink('website')">{{ websiteText }}</button>
-        <button mat-raised-button class="project-button" (click)="launchLink('webapp')">{{ webAppText }}</button>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <span class="heading">{{ detailService.about.heading }}</span>
+          </div>
+          <div class="col-12">
+            <span class="sub-heading">{{ detailService.about.subHeading }}</span>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="row">
+              <div class="col-12">
+                <span id="contact-text">Contact me for a project</span>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <button mat-raised-button class="project-button"
+                  (click)="launchLink('website')">{{ websiteText }}</button>
+                <button mat-raised-button class="project-button"
+                  (click)="launchLink('webapp')">{{ webAppText }}</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

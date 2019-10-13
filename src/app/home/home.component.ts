@@ -1,9 +1,6 @@
-import { Component, OnInit, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { AboutComponent } from '../about/about.component';
-import { async, delay } from 'q';
-import { Observable, of, Subscription } from 'rxjs';
-
-declare var TypeIt: any;
 
 @Component({
   selector: 'app-home',

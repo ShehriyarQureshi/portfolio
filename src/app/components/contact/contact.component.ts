@@ -18,8 +18,8 @@ export class ContactComponent implements OnInit {
 
   links: any = {
     github: 'https://github.com/ShehriyarQureshi',
-    medium: 'https://medium.com/@Shehriyar.Qureshi',
-    linkedin: 'https://www.linkedin.com/in/sshehriyar/',
+    medium: 'https://medium.com/@thatdevsherry',
+    linkedin: 'https://www.linkedin.com/in/thatdevsherry/',
     email: 'mailto:SShehriyar266@gmail.com',
   };
 

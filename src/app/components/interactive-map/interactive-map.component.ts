@@ -11,7 +11,7 @@ export class InteractiveMapComponent implements OnInit {
   public markerObject: any = undefined;
 
   constructor(
-    private mapEventService: MapEventService,
+    private mapEventService: MapEventService
   ) { }
 
   ngOnInit() {

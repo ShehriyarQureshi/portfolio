@@ -10,3 +10,7 @@ export const TECHNOLOGIES: any = {
     ANGULAR: 'Angular',
     LEAFLET: 'Leaflet.js',
 };
+
+export const TAB_TITLE: any = {
+    HOME: 'Shehriyar Qureshi | Software Engineer & Entreprenuer'
+};

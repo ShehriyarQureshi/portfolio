@@ -14,3 +14,10 @@ export const TECHNOLOGIES: any = {
 export const TAB_TITLE: any = {
     HOME: 'Shehriyar Qureshi | Software Engineer & Entreprenuer'
 };
+
+export const META_TAGS: any = {
+    DESCRIPTION: {
+        name: 'description',
+        content: 'Self taught Software Engineer & Entrepreneur. I build businesses & grow existing ones through software.'
+    }
+};

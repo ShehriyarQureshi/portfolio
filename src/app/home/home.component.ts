@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { TAB_TITLE } from '../global';
+import { META_TAGS, TAB_TITLE } from '../global';
 
 @Component({
   selector: 'app-home',
@@ -13,10 +13,11 @@ export class HomeComponent implements OnInit {
     private meta: Meta,
     private title: Title
   ) {
+    this.meta.addTag(META_TAGS.DESCRIPTION);
+    this.title.setTitle(TAB_TITLE.HOME);
   }
 
   ngOnInit() {
-    this.title.setTitle(TAB_TITLE.HOME);
   }
 
 }

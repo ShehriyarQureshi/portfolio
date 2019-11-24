@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 import { fullHeight } from 'contact.animation';
 
 @Component({
@@ -21,6 +21,8 @@ export class ContactComponent implements OnInit {
     medium: 'https://medium.com/@thatdevsherry',
     linkedin: 'https://www.linkedin.com/in/thatdevsherry/',
     email: 'mailto:SShehriyar266@gmail.com',
+    snapchat: 'https://www.snapchat.com/add/thatdevsherry',
+    instagram: 'https://www.instagram.com/thatdevsherry/'
   };
 
   constructor() {

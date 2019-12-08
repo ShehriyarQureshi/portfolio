@@ -11,8 +11,8 @@ import { fullHeight } from 'contact.animation';
 })
 export class ContactComponent implements OnInit {
 
-  @ViewChild('projectTalk', { static: true })
-  public projectButtons: ElementRef;
+  @ViewChild('phoneNumber', { static: true })
+  public phoneNumber: ElementRef;
 
   public isVisible = false;
 
@@ -33,10 +33,10 @@ export class ContactComponent implements OnInit {
 
   @HostListener('window:scroll')
   public inView(): void {
-    if (this.projectButtons.nativeElement.getBoundingClientRect().top
-      + this.projectButtons.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.projectButtons.nativeElement.getBoundingClientRect().top
-      + this.projectButtons.nativeElement.getBoundingClientRect().height > 0) {
+    if (this.phoneNumber.nativeElement.getBoundingClientRect().top
+      + this.phoneNumber.nativeElement.getBoundingClientRect().height < window.innerHeight
+      && this.phoneNumber.nativeElement.getBoundingClientRect().top
+      + this.phoneNumber.nativeElement.getBoundingClientRect().height > 0) {
       this.isVisible = true;
     } else {
       this.isVisible = false;

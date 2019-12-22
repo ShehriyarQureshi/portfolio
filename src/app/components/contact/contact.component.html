@@ -1,16 +1,13 @@
-<div class="contact-container text-center" [@fullHeight]="isVisible ? 'contactAnimation' : '*'">
-  <div class="content">
-    <span class="section-heading">Contact</span>
-    <div #socialLinks>
-      <a href="{{ links.github }}" class="fa fa-github"></a>
-      <a href="{{ links.medium }}" class="fa fa-medium"></a>
-      <a href="{{ links.linkedin }}" class="fa fa-linkedin"></a>
-      <a href="{{ links.snapchat }}" class="fa fa-snapchat"></a>
-      <a href="{{ links.instagram }}" class="fa fa-instagram"></a>
-      <a href="{{ links.email }}" class="fa fa-envelope"></a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="offset-3 col-6 text-center">
+      <span style="font-size: 96px; color: white;">Stay connected</span>
     </div>
-    <div #phoneNumber class="mt-5">
-      <span class="phone-number">Phone: +92 334 0004051</span>
+    <div class="col-12"></div>
+    <div class="offset-3 col-6 justify-content-center d-flex">
+      <div class="col" *ngFor="let social of socials">
+        <a href="{{ social.link }}" class="fa" [ngClass]="social.class"></a>
+      </div>
     </div>
   </div>
 </div>

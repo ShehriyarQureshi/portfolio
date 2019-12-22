@@ -1,5 +1,6 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { fullHeight } from 'contact.animation';
+import { SOCIAL_LINKS } from 'src/app/global';
 
 @Component({
   selector: 'app-contact',
@@ -11,37 +12,47 @@ import { fullHeight } from 'contact.animation';
 })
 export class ContactComponent implements OnInit {
 
-  @ViewChild('phoneNumber', { static: true })
-  public phoneNumber: ElementRef;
-
-  public isVisible = false;
-
-  links: any = {
-    github: 'https://github.com/ShehriyarQureshi',
-    medium: 'https://medium.com/@thatdevsherry',
-    linkedin: 'https://www.linkedin.com/in/thatdevsherry/',
-    email: 'mailto:SShehriyar266@gmail.com',
-    snapchat: 'https://www.snapchat.com/add/thatdevsherry',
-    instagram: 'https://www.instagram.com/thatdevsherry/'
-  };
+  public socials: Array<any> = [
+    {
+      class: 'fa-instagram',
+      link: SOCIAL_LINKS.INSTAGRAM,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-facebook',
+      link: SOCIAL_LINKS.FACEBOOK,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-linkedin',
+      link: SOCIAL_LINKS.LINKEDIN,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-twitter',
+      link: SOCIAL_LINKS.TWITTER,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-snapchat',
+      link: SOCIAL_LINKS.SNAPCHAT,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-microphone',
+      link: SOCIAL_LINKS.ANCHOR,
+      text: 'wabba labba dub dub'
+    },
+    {
+      class: 'fa-youtube',
+      link: SOCIAL_LINKS.YOUTUBE,
+      text: 'wabba labba dub dub'
+    },
+  ];
 
   constructor() {
   }
 
   ngOnInit() {
   }
-
-  @HostListener('window:scroll')
-  public inView(): void {
-    if (this.phoneNumber.nativeElement.getBoundingClientRect().top
-      + this.phoneNumber.nativeElement.getBoundingClientRect().height < window.innerHeight
-      && this.phoneNumber.nativeElement.getBoundingClientRect().top
-      + this.phoneNumber.nativeElement.getBoundingClientRect().height > 0) {
-      this.isVisible = true;
-    } else {
-      this.isVisible = false;
-    }
-
-  }
-
 }

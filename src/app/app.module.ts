@@ -26,6 +26,7 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
 import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './home/home.component';
 import { CompaniesWorkedComponent } from './components/companies-worked/companies-worked.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -45,7 +46,8 @@ import { CompaniesWorkedComponent } from './components/companies-worked/companie
     RecommendationCardComponent,
     InteractiveMapComponent,
     MapComponent,
-    CompaniesWorkedComponent
+    CompaniesWorkedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

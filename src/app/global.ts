@@ -21,3 +21,15 @@ export const META_TAGS: any = {
         content: 'Self taught Software Engineer & Entrepreneur. I build businesses & grow existing ones through software.'
     }
 };
+
+
+export const SOCIAL_LINKS: any = {
+    FACEBOOK: 'https://facebook.com/thatdevsherry',
+    INSTAGRAM: 'https://instagram.com/thatdevsherry',
+    LINKEDIN: 'https://linkedin.com/in/thatdevsherry',
+    SNAPCHAT: 'https://snapchat.com/add/thatdevsherry',
+    TWITTER: 'https://twitter.com/thatdevsherry',
+    YOUTUBE: 'https://www.youtube.com/channel/UCNdlgpsa0d00kmLZkJiaUpQ',
+    ANCHOR: 'https://anchor.fm/thatdevsherry',
+    GITHUB: 'https://github.com/ShehriyarQureshi',
+};

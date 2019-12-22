@@ -1,29 +1,12 @@
-<mat-card class="greeter-surface justify-content-center mat-elevation-z10" [@slideInDown]>
-  <div class="hero-image">
-    <div class="hero-text">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <span class="heading">{{ detailService.about.heading }}</span>
-          </div>
-          <div class="col-12">
-            <span class="sub-heading">{{ detailService.about.subHeading }}</span>
-          </div>
-          <div class="col-12 mt-5">
-            <div class="row">
-              <div class="col-12">
-                <span id="contact-text">Contact me for a project</span>
-              </div>
-              <div class="col-12 d-flex justify-content-center">
-                <button mat-raised-button class="project-button"
-                  (click)="launchLink('website')">{{ websiteText }}</button>
-                <button mat-raised-button class="project-button"
-                  (click)="launchLink('webapp')">{{ webAppText }}</button>
-              </div>
-            </div>
-          </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-1 col-4 align-items-center">
+            <span style="font-size: 288px; color: #ffffff;">Hey,</span>
         </div>
-      </div>
+        <div class="offset-5 col-6 text-right">
+            <span class="introduction-text" style="text-align-last: right; text-align: justify;">I'm a <span
+          class="emphasis-role">Self-Taught Software
+          Engineer</span> from <span class="emphasis-place">Pakistan</span></span>
+        </div>
     </div>
-  </div>
-</mat-card>
+</div>

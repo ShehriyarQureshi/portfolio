@@ -32,4 +32,5 @@ export const SOCIAL_LINKS: any = {
     YOUTUBE: 'https://www.youtube.com/channel/UCNdlgpsa0d00kmLZkJiaUpQ',
     ANCHOR: 'https://anchor.fm/thatdevsherry',
     GITHUB: 'https://github.com/ShehriyarQureshi',
+    WHATSAPP: 'https://wa.me/923340004051'
 };

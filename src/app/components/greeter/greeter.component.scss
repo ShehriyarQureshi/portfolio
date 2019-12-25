@@ -1,122 +1,27 @@
 .container-fluid {
-  height: 100vh;
+    height: 100vh;
+}
+
+.salutation {
+    font-size: 28rem;
+    color: white;
+    @media screen and (max-width: 500px) {
+        font-size: 7rem;
+    }
 }
 
 .introduction-text {
-  font-size: 72px;
-  color: #ffffff;
+    font-size: 7.2rem;
+    color: #ffffff;
+    @media screen and (max-width: 500px) {
+        font-size: 3.6rem;
+    }
 }
 
 .emphasis-role {
-  color: #ff9494;
+    color: #ff9494;
 }
 
 .emphasis-place {
-  color: #94fff2;
-}
-
-.greeter-surface {
-  height: 90vh;
-  margin-top: 5vh;
-  padding: 0;
-  border-radius: 0.5em;
-  overflow: hidden;
-}
-
-.hero-image {
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../../../assets/images/hero.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Place text in the middle of the image */
-
-.hero-text {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.heading {
-  display: block;
-  font-size: 3.5em;
-  text-shadow: 3px 3px #000000;
-  @media only screen and (max-width: 700px) {
-    font-size: 2em;
-  }
-  @media only screen and (max-width: 350px) {
-    font-size: 1.5em;
-  }
-}
-
-.sub-heading {
-  display: block;
-  font-size: 2em;
-  text-shadow: 2px 3px #000000;
-  @media only screen and (max-width: 700px) {
-    font-size: 1.5em;
-  }
-  @media only screen and (max-width: 350px) {
-    font-size: 1em;
-  }
-}
-
-#scroll-div {
-  font-size: 1em;
-  width: auto;
-  text-align: center;
-  position: absolute;
-  margin-top: 0;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.contact-buttons {
-  display: inline-block;
-  font-size: 1em;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.project-button {
-  margin: 1em;
-  width: 10em;
-  color: black;
-  background-color: white;
-}
-
-#contact-text {
-  font-size: 1.3em;
-  display: block;
-  margin-bottom: 1em;
-  font-weight: 500;
-  text-shadow: 3px 3px #000000;
-}
-
-.fa {
-  font-size: 2em;
-  display: block;
-}
-
-.fa:hover {
-  // cursor: pointer;
-}
-
-.contact {
-  margin-top: 5em;
+    color: #94fff2;
 }

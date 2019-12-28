@@ -1,13 +1,10 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-12 text-center">
-            <h1 class="section-heading">Companies I've worked with</h1>
+        <div class="col-12 text-center mb-3">
+            <span style="font-size: 6.4rem; font-weight: 550;">Companies I've worked with</span>
         </div>
-        <div class="col-sm-12 col-lg-3 text-center" *ngFor="let item of workService.workExperience">
+        <div class="col-sm-12 col-lg-2 text-center" *ngFor="let item of workService.workExperience">
             <img src="{{ item.logo }}" alt="">
-        </div>
-        <div class="col-12 text-center">
-            <button mat-raised-button routerLink="work-history" class="map-button mt-5">See interactive map</button>
         </div>
     </div>
 </div>

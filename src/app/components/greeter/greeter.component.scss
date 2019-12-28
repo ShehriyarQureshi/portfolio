@@ -4,7 +4,8 @@
 
 .salutation {
     font-size: 28rem;
-    color: white;
+    font-weight: bold;
+    color: #444444;
     @media screen and (max-width: 500px) {
         font-size: 7rem;
     }
@@ -12,16 +13,17 @@
 
 .introduction-text {
     font-size: 7.2rem;
-    color: #ffffff;
+    color: #444444;
     @media screen and (max-width: 500px) {
         font-size: 3.6rem;
     }
 }
 
 .emphasis-role {
-    color: #ff9494;
+    font-weight: bold;
 }
 
 .emphasis-place {
-    color: #94fff2;
+    color: #28704D;
+    font-weight: bold;
 }

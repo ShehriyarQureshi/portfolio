@@ -1,58 +1,58 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body,
 html {
-  height: 100%;
-  margin: 0 auto;
-  font-family: "Roboto", sans-serif;
-  font-size: 62.5%;
-  background-color: #393737;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    background-color: #f8f8fa;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 section {
-  width: 80%;
-  margin: 0 auto;
-  padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
 }
 
 hr {
-  height: 0.2em;
-  width: 10%;
-  background-color: black;
-  margin-bottom: 10vh;
-  margin-top: 1vh;
+    height: 0.2em;
+    width: 10%;
+    background-color: black;
+    margin-bottom: 10vh;
+    margin-top: 1vh;
 }
 
 .section-heading {
-  font-size: 3em;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 1em;
-  margin-top: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .content {
-  margin-top: 5vh;
+    margin-top: 5vh;
 }
 
 button {
-  text-transform: uppercase;
-  outline: 0 !important;
+    text-transform: uppercase;
+    outline: 0 !important;
 }
 
 // scrollbar
 ::-webkit-scrollbar {
-  width: 0.3em;
+    width: 0.3em;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: purple;
-  border-radius: 10%;
+    background: purple;
+    border-radius: 10%;
 }
 
 .nopadding {
-  padding: 0 !important;
+    padding: 0 !important;
 }

@@ -15,7 +15,7 @@ export class WorkExperienceService {
       name: 'TPL Maps Pvt Ltd',
       lng: 73.094479317,
       lat: 33.52230533199997,
-      logo: 'assets/images/tplmaps_logo.png',
+      logo: 'assets/images/tplmaps.png',
       industry: 'GIS',
       role: 'Full-Stack Software Engineer',
       achievements: [
@@ -28,12 +28,12 @@ export class WorkExperienceService {
     {
       name: 'Ufone',
       industry: 'Telecommunication',
-      logo: 'assets/images/ufone_logo.jpg'
+      logo: 'assets/images/ufone.png'
     },
     {
       name: 'PTCL',
       industry: 'Telecommunication',
-      logo: 'assets/images/ptcl_logo.jpg'
+      logo: 'assets/images/ptcl.png'
     },
     {
       name: 'Codecademy',

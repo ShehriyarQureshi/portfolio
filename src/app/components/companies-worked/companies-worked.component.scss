@@ -1,0 +1,7 @@
+.heading {
+    font-size: 6.4rem;
+    font-weight: 550;
+    @media screen and (max-width: 500px) {
+        font-size: 3rem;
+    }
+}

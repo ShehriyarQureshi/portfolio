@@ -1,3 +1,11 @@
+.heading {
+  font-size: 6.4rem;
+  color: #444444;
+    @media screen and (max-width: 500px) {
+        font-size: 3rem;
+    }
+}
+
 .fa {
   font-size: 6rem;
   text-align: center;
@@ -5,4 +13,7 @@
   border-radius: 50%;
   margin: 0 0.5em 0 0.5em;
   color: #444444;
+    @media screen and (max-width: 500px) {
+        font-size: 3rem;
+    }
 }

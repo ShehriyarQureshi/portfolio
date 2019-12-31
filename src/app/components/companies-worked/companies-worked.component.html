@@ -1,10 +1,10 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-12 text-center mb-3">
-            <span style="font-size: 6.4rem; font-weight: 550;">Companies I've worked with</span>
+            <span class="heading">Companies I've worked with</span>
         </div>
-        <div class="col-sm-12 col-lg-2 text-center" *ngFor="let item of workService.workExperience">
-            <img src="{{ item.logo }}" alt="">
+        <div class="offset-lg-0 col-lg-2 col-4 text-center mt-3 mb-3" *ngFor="let item of workService.workExperience">
+            <img src="{{ item.logo }}" alt="" class="img-fluid">
         </div>
     </div>
 </div>

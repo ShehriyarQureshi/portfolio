@@ -9,6 +9,9 @@
     @media screen and (max-width: 500px) {
         font-size: 10rem;
     }
+    @media screen and (max-width: 1024px) and (min-width: 500px) {
+        font-size: 7rem;
+    }
 }
 
 .introduction-text {
@@ -16,6 +19,9 @@
     color: #444444;
     @media screen and (max-width: 500px) {
         font-size: 2.0rem;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 500px) {
+        font-size: 3rem;
     }
 }
 

@@ -4,6 +4,9 @@
     @media screen and (max-width: 500px) {
         font-size: 3rem;
     }
+    @media screen and (max-width: 1024px) and (min-width: 500px) {
+        font-size: 5rem;
+    }
 }
 
 .fa {
@@ -15,5 +18,8 @@
   color: #444444;
     @media screen and (max-width: 500px) {
         font-size: 3rem;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 500px) {
+        font-size: 4.5rem;
     }
 }

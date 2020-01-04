@@ -1,86 +1,15 @@
-<mat-card class="my-story mat-elevation-z5">
-    <mat-card-title>
-        <h2>whoami</h2>
-        <p><b>{{ about.name }}</b>, a <b>{{ about.status }}</b>.</p>
-    </mat-card-title>
-</mat-card>
-
-<mat-card class="my-story mat-elevation-z5">
-    <mat-card-title>
-        <h2>Skills</h2>
-    </mat-card-title>
-
-
-    <div class="skills-container">
-        <mat-card class="skill-card mat-elevation-z5">
-            <mat-card-title>
-                <h2>Front-End Skills</h2>
-            </mat-card-title>
-            <mat-card-content>
-                <p *ngFor="let skill of frontendSkills">{{ skill }}</p>
-            </mat-card-content>
-        </mat-card>
-        <mat-card class="skill-card mat-elevation-z5">
-            <mat-card-title>
-                <h2>Back-End Skills</h2>
-            </mat-card-title>
-            <mat-card-content>
-                <p *ngFor="let skill of backendSkills">{{ skill }}</p>
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card class="skill-card mat-elevation-z5">
-            <mat-card-title>
-                <h2>Database Skills</h2>
-            </mat-card-title>
-            <mat-card-content>
-                <p *ngFor="let skill of databaseSkills">{{ skill }}</p>
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card class="skill-card mat-elevation-z5">
-            <mat-card-title>
-                <h2>Other Skills</h2>
-            </mat-card-title>
-            <mat-card-content>
-                <p *ngFor="let skill of otherSkills">{{ skill }}</p>
-            </mat-card-content>
-        </mat-card>
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-1 col-10 text-center mb-5">
+            <span class="name-heading">Shehriyar Qureshi</span>
+        </div>
+        <div class="offset-1 col-md-6 col-sm-12 align-self-center order-2">
+            <span class="intro-text">Documenting my journey as a young developer without a degree.
+                Confident in my craft with skills that speak for themselves.
+                Mentoring soon-to-be devs and instilling work ethic.
+                I <b> want </b>you to know that I’m <b>thatdevsherry</b></span>
+        </div>
+        <div class="offset-md-1 col-md-3 offset-3 col-6 order-1 mb-3 align-self-center">
+            <img id="profile-picture" src="../../assets/images/profile_picture.jpg" alt="" class="img-fluid">
+        </div>
     </div>
-</mat-card>
-<mat-card class="my-work-experience mat-elevation-z5">
-    <mat-card-title>
-        <h2>Work Experience</h2>
-    </mat-card-title>
-
-    <div class="experience-container">
-        <mat-card class="experience-card mat-elevation-z5" *ngFor="let company of workExperience">
-            <mat-card-title>
-                <img src="{{ company.image }}" alt="">
-                <h3>{{ company.name }}</h3>
-                <p>{{ company.role }}</p>
-            </mat-card-title>
-            <mat-card-subtitle>
-                <p>{{ company.date }}</p>
-            </mat-card-subtitle>
-            <mat-card-content>
-                <p>{{ company.description }}</p>
-            </mat-card-content>
-        </mat-card>
-    </div>
-</mat-card>
-
-<mat-card class="home-setup-card mat-elevation-z5">
-    <mat-card-title>
-        <h2>Personal Machine Setup</h2>
-    </mat-card-title>
-    <mat-card-subtitle>
-        <p>In case you were wondering</p>
-    </mat-card-subtitle>
-    <mat-card-content>
-        <p><b>Operating System:</b> {{ laptopSetup.operatingSystem }}</p>
-        <p><b>Text Editor I love:</b> {{ laptopSetup.textEditor }}</p>
-        <p><b>IDE's I love:</b> {{ laptopSetup.IDE }}</p>
-        <p><b>Desktop Environment:</b> {{ laptopSetup.desktopEnvironment }}</p>
-    </mat-card-content>
-</mat-card>

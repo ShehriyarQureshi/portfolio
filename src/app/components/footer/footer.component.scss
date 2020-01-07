@@ -6,4 +6,7 @@
     font-family: 'Pacifico', cursive;
     color: #f8f8fa;
     font-size: 3rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2.4rem;
+    }
 }

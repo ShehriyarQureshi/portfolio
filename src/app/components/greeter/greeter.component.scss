@@ -1,8 +1,10 @@
+@import '../../../styles.scss';
 .container-fluid {
     height: 100vh;
 }
 
 .salutation {
+    font-family: 'Raleway', sans-serif;
     font-size: 28rem;
     font-weight: bold;
     color: #444444;
@@ -15,6 +17,8 @@
 }
 
 .introduction-text {
+    font-family: 'Raleway', sans-serif;
+    @extend .heading;
     font-size: 7.2rem;
     color: #444444;
     @media screen and (max-width: 500px) {

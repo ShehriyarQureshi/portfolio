@@ -58,6 +58,11 @@ export class ContactComponent implements OnInit {
       link: SOCIAL_LINKS.GITHUB,
       text: 'wabba labba dub dub'
     },
+    {
+      class: 'fa-medium',
+      link: SOCIAL_LINKS.MEDIUM,
+      text: 'wabba labba dub dub'
+    },
   ];
 
   constructor() {

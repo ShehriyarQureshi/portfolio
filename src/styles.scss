@@ -43,16 +43,6 @@ button {
     outline: 0 !important;
 }
 
-// scrollbar
-::-webkit-scrollbar {
-    width: 0.3em;
-}
-
-::-webkit-scrollbar-thumb {
-    background: purple;
-    border-radius: 10%;
-}
-
 .nopadding {
     padding: 0 !important;
 }

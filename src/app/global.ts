@@ -33,5 +33,6 @@ export const SOCIAL_LINKS: any = {
     ANCHOR: 'https://anchor.fm/thatdevsherry',
     GITHUB: 'https://github.com/ShehriyarQureshi',
     MEDIUM: 'https://medium.com/@thatdevsherry',
-    WHATSAPP: 'https://wa.me/923340004051'
+    WHATSAPP: 'https://wa.me/923340004051',
+    TIKTOK: 'https://tiktok.com/@thatdevsherry'
 };

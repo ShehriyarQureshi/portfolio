@@ -6,68 +6,68 @@ import { SOCIAL_LINKS } from 'src/app/global';
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'],
-  animations: [
-    fullHeight
-  ]
+  animations: [fullHeight]
 })
 export class ContactComponent implements OnInit {
-
   public socials: Array<any> = [
     {
       class: 'fa-instagram',
       link: SOCIAL_LINKS.INSTAGRAM,
-      text: 'wabba labba dub dub'
+      text: 'Get insights into my everyday life'
     },
     {
       class: 'fa-facebook',
       link: SOCIAL_LINKS.FACEBOOK,
-      text: 'wabba labba dub dub'
+      text: 'See what I\'m doing locally'
     },
     {
       class: 'fa-linkedin',
       link: SOCIAL_LINKS.LINKEDIN,
-      text: 'wabba labba dub dub'
+      text: 'See my thoughts on work culture and how I\'m changing it'
     },
     {
       class: 'fa-twitter',
       link: SOCIAL_LINKS.TWITTER,
-      text: 'wabba labba dub dub'
+      text: 'Some of my most random thoughts'
     },
     {
       class: 'fa-snapchat',
       link: SOCIAL_LINKS.SNAPCHAT,
-      text: 'wabba labba dub dub'
+      text: 'I crack jokes better than I crack eggs'
     },
     {
       class: 'fa-microphone',
       link: SOCIAL_LINKS.ANCHOR,
-      text: 'wabba labba dub dub'
+      text: 'Listen to my stories while you\'re on the go'
     },
     {
       class: 'fa-youtube',
       link: SOCIAL_LINKS.YOUTUBE,
-      text: 'wabba labba dub dub'
+      text: 'Watch me talk about my life stories and thoughts'
     },
     {
       class: 'fa-whatsapp',
       link: SOCIAL_LINKS.WHATSAPP,
-      text: 'wabba labba dub dub'
+      text: 'Reach out if you want to work with me'
     },
     {
       class: 'fa-github',
       link: SOCIAL_LINKS.GITHUB,
-      text: 'wabba labba dub dub'
+      text: 'See my coding activity'
     },
     {
       class: 'fa-medium',
       link: SOCIAL_LINKS.MEDIUM,
-      text: 'wabba labba dub dub'
+      text: 'Read some articles that I occasionally write'
+    },
+    {
+      class: 'fa-music',
+      link: SOCIAL_LINKS.TIKTOK,
+      text: 'See me try to not be cringy'
     },
   ];
 
-  constructor() {
-  }
+  constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 }

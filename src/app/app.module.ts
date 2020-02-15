@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GreeterComponent } from './components/greeter/greeter.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { HomeComponent } from './home/home.component';
+import { HireMeComponent } from './components/hire-me/hire-me.component';
 
 
 
@@ -25,7 +26,8 @@ import { HomeComponent } from './home/home.component';
     GreeterComponent,
     IntroductionComponent,
     CompaniesWorkedComponent,
-    FooterComponent
+    FooterComponent,
+    HireMeComponent
   ],
   imports: [
     BrowserModule,

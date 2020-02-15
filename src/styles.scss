@@ -7,6 +7,11 @@ html {
   background-color: #f8f8fa;
 }
 
+.section-margin {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -25,14 +30,6 @@ hr {
   margin-top: 1vh;
 }
 
-.section-heading {
-  font-size: 3em;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
-
 .content {
   margin-top: 5vh;
 }
@@ -40,10 +37,6 @@ hr {
 button {
   text-transform: uppercase;
   outline: 0 !important;
-}
-
-.nopadding {
-  padding: 0 !important;
 }
 
 .heading {

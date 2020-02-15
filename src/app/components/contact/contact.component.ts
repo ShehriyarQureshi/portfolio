@@ -33,7 +33,7 @@ export class ContactComponent implements OnInit {
     {
       class: 'fa-snapchat',
       link: SOCIAL_LINKS.SNAPCHAT,
-      text: 'I crack jokes better than I crack eggs'
+      text: 'I crack eggs better than I crack jokes'
     },
     {
       class: 'fa-microphone',

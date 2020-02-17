@@ -42,6 +42,10 @@ export class GreeterComponent implements OnInit {
     return BUTTON_TEXT.WEB_APP;
   }
 
+  public getFiverrLink(): string {
+    return SOCIAL_LINKS.FIVERR;
+  }
+
   public launchLink(projectType: string) {
     if (projectType === 'website') {
       window.open('https://forms.gle/MLEL5r4RY2HpecE67');

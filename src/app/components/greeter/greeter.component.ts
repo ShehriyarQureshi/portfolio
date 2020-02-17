@@ -1,7 +1,8 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { slideInDown, slideInLeft, slideInRight, fadeIn } from 'src/app/animations/greeter.animation';
+import { Component, OnInit } from '@angular/core';
+import { fadeIn, slideInDown, slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
+import { BUTTON_TEXT, SOCIAL_LINKS } from 'src/app/global';
 import { DetailService } from 'src/app/services/detail.service';
-import { BUTTON_TEXT } from 'src/app/global';
+import { SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER } from 'constants';
 
 @Component({
   selector: 'app-greeter',
@@ -21,6 +22,17 @@ export class GreeterComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+  }
+
+  shouldShowLink(link: string) {
+    // let's not show tiktok on the forefront XD
+    return (
+      link !== SOCIAL_LINKS.TIKTOK
+      && link !== SOCIAL_LINKS.GITHUB
+      && link !== SOCIAL_LINKS.ANCHOR
+      && link !== SOCIAL_LINKS.MEDIUM
+      && link !== SOCIAL_LINKS.WHATSAPP
+    );
   }
 
   public get websiteText(): string {

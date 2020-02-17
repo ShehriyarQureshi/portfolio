@@ -9,6 +9,12 @@
                             class="emphasis">Pakistan</span></span>
                 </div>
             </div>
+            <div class="col-12 align-items-end d-flex flex-wrap justify-content-center">
+                <div *ngFor="let social of detailService.socials" class="mt-4 mt-md-0">
+                    <a href="{{ social.link }}" class="fa" [ngClass]="social.class"
+                        *ngIf="shouldShowLink(social.link)"></a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

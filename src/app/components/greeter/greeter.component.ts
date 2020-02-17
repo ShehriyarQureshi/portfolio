@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { fadeIn, slideInDown, slideInLeft, slideInRight } from 'src/app/animations/greeter.animation';
 import { BUTTON_TEXT, SOCIAL_LINKS } from 'src/app/global';
 import { DetailService } from 'src/app/services/detail.service';
-import { SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER } from 'constants';
 
 @Component({
   selector: 'app-greeter',

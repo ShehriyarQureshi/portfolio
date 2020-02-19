@@ -12,7 +12,7 @@ export const TECHNOLOGIES: any = {
 };
 
 export const TAB_TITLE: any = {
-    HOME: 'Shehriyar Qureshi | Software Engineer & Entreprenuer'
+    HOME: 'Shehriyar Qureshi | Freelance Software Engineer'
 };
 
 export const META_TAGS: any = {

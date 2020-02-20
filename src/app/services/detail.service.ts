@@ -20,7 +20,7 @@ export class DetailService {
       text: 'Get insights into my everyday life'
     },
     {
-      class: 'fa-facebook-official',
+      class: 'fa-facebook',
       link: SOCIAL_LINKS.FACEBOOK,
       text: 'See what I\'m doing locally'
     },
@@ -35,7 +35,7 @@ export class DetailService {
       text: 'Some of my most random thoughts'
     },
     {
-      class: 'fa-snapchat',
+      class: 'fa-snapchat-ghost',
       link: SOCIAL_LINKS.SNAPCHAT,
       text: 'I crack eggs better than I crack jokes'
     },
@@ -67,7 +67,7 @@ export class DetailService {
     {
       class: 'fa-music',
       link: SOCIAL_LINKS.TIKTOK,
-      text: 'See me try to not be cringy'
+      text: 'See me try to not be cringy on TikTok'
     },
   ];
 

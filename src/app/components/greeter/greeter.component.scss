@@ -17,11 +17,55 @@
 }
 
 .fa {
+  font-size: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 6rem;
+  width: 6rem;
+  height: 6rem;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 0.5em 0 0.5em;
   color: #f8f8fa;
-  display: inline-block;
-  // border-radius: 50%;
-  // background-color: white;
-  // padding: 2rem;
+  background: #444444;
+  @media screen and (max-width: 500px) {
+    font-size: 2rem;
+    line-height: 4rem;
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.fa-twitter {
+  background: #1da1f2;
+}
+
+.fa-youtube {
+  background: #ff0000;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+}
+
+.fa-linkedin {
+  background: #0072b1;
+}
+
+.fa-instagram {
+  background: #833ab4;
+}
+
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-whatsapp {
+  background: #4fce5d;
+}
+
+.fa-microphone {
+  background: #8940fa;
 }
 
 .salutation {

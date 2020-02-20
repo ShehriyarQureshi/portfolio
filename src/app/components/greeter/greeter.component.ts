@@ -30,7 +30,7 @@ export class GreeterComponent implements OnInit {
       && link !== SOCIAL_LINKS.GITHUB
       && link !== SOCIAL_LINKS.ANCHOR
       && link !== SOCIAL_LINKS.MEDIUM
-      && link !== SOCIAL_LINKS.WHATSAPP
+      && link !== SOCIAL_LINKS.SNAPCHAT
     );
   }
 

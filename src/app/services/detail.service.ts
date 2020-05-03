@@ -69,6 +69,11 @@ export class DetailService {
       link: SOCIAL_LINKS.TIKTOK,
       text: 'See me try to not be cringy on TikTok'
     },
+    {
+      class: 'fa-users',
+      link: SOCIAL_LINKS.DISCORD,
+      text: 'Join the community'
+    },
   ];
 
 

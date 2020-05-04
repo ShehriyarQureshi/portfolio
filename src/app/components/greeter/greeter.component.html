@@ -1,19 +1,21 @@
 <section class="hero vw-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="container-fluid">
-        <div class="row h-100 align-items-center mt-5 mt-md-0">
-            <div class="col-sm-12 offset-md-1 col-md-10">
-                <span class="salutation">Hey,</span>
-                <div class="text-right">
-                    <span class="introduction-text">I'm a <span class="emphasis">Self-Taught Software
-                            Engineer</span>
-                        from
-                        <span class="emphasis">Pakistan</span></span>
+        <div class="row h-100 align-items-end mt-5 mt-md-0">
+            <div class="col-12 mb-5 pb-5">
+                <div class="col-sm-12 offset-md-1 col-md-10 mb-5">
+                    <span class="salutation">Hey,</span>
+                    <div class="text-right">
+                        <span class="introduction-text">I'm a <span class="emphasis">Self-Taught Software
+                                Engineer</span>
+                            from
+                            <span class="emphasis">Pakistan</span></span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 align-items-end d-flex flex-wrap justify-content-center">
-                <div *ngFor="let social of detailService.socials" class="mt-4 mt-md-0">
-                    <a href="{{ social.link }}" class="fa" [ngClass]="social.class"
-                        *ngIf="shouldShowLink(social.link)"></a>
+                <div class="col-12 d-flex flex-wrap justify-content-start">
+                    <div *ngFor="let social of detailService.socials" class="mt-4 mt-md-0">
+                        <a href="{{ social.link }}" class="fa" [ngClass]="social.class"
+                            *ngIf="shouldShowLink(social.link)"></a>
+                    </div>
                 </div>
             </div>
         </div>

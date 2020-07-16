@@ -1,11 +1,15 @@
 @import "../../../styles.scss";
 
-.container-fluid {
-  max-width: 100%;
-  height: 100vh;
-  @media screen and (max-width: 500px) {
-    height: 90vh;
-  }
+// .container-fluid {
+//   max-width: 100%;
+//   height: 100vh;
+//   @media screen and (max-width: 500px) {
+//     height: 90vh;
+//   }
+// }
+
+.logo-placeholder {
+  font-size: 3rem;
 }
 
 .hero {

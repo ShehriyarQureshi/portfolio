@@ -1,15 +1,18 @@
 @import "../../../styles.scss";
 
-// .container-fluid {
-//   max-width: 100%;
-//   height: 100vh;
-//   @media screen and (max-width: 500px) {
-//     height: 90vh;
-//   }
-// }
-
 .logo-placeholder {
   font-size: 3rem;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 6rem;
+  // word-spacing: -0.5rem;
+}
+
+.tagline-mobile {
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
 .hero {

@@ -5,6 +5,25 @@ import { Injectable } from '@angular/core';
 })
 export class ProjectService {
 
+  technologies: Array<any> = [
+    {
+      title: 'Rust',
+      description: 'building networking tools'
+    },
+    {
+      title: 'Angular',
+      description: 'dashboards & this website'
+    },
+    {
+      title: 'Java',
+      description: 'backend APIs'
+    },
+    {
+      title: 'Python',
+      description: 'general purpose programming'
+    },
+  ];
+
   projects: Array<any> = [
     {
       name: 'Commercial Planning Solution',

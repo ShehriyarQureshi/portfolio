@@ -1,10 +1,15 @@
 <div class="container-fluid">
-    <div class="row p-0">
-        <div class="col-12 p-0">
-            <span class="heading">Companies I've worked with</span>
-        </div>
-        <div class="offset-lg-0 col-lg-2 col-4 text-center align-self-center pr-3 pl-3 mr-5 ml-5 mb-5 mt-5 mt-md-0" *ngFor="let item of workService.workExperience">
-            <img src="{{ item.logo }}" alt="" class="img-fluid">
-        </div>
+  <div class="row p-0">
+    <div class="col-12 p-0">
+      <span class="heading">Companies I've worked with</span>
     </div>
+  </div>
+  <div class="row align-items-center">
+    <div
+      class="col-lg-3 col-12 text-center mt-5 mb-5"
+      *ngFor="let item of workService.workExperience"
+    >
+      <img src="{{ item.logo }}" alt="" class="img-fluid" style="width: 50%"/>
+    </div>
+  </div>
 </div>

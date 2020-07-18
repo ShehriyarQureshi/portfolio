@@ -12,33 +12,26 @@ export class WorkExperienceService {
 
   public workExperience: Array<any> = [
     {
+      name: 'Breu Inc',
+      description:
+        `
+        Building networking tools using the Rust programming language.
+        `
+      ,
+    },
+    {
       name: 'TPL Maps Pvt Ltd',
-      lng: 73.094479317,
-      lat: 33.52230533199997,
-      logo: 'assets/images/tplmaps.png',
-      industry: 'GIS',
-      role: 'Full-Stack Software Engineer',
-      achievements: [
-        `Discovered, Analyzed and fixed major memory leaks`,
-        `Discovered and patched security vulnerabilities`,
-        `Developed RESTful web services`,
-        `Helped coworkers to increase their knowledge in Version Control and using *nix command line`
-      ],
-    },
-    {
-      name: 'Ufone',
-      industry: 'Telecommunication',
-      logo: 'assets/images/ufone.png'
-    },
-    {
-      name: 'PTCL',
-      industry: 'Telecommunication',
-      logo: 'assets/images/ptcl.png'
+      description:
+        `
+        Developed RESTful APIs along with discovering and fixing security vulnerabilites
+        and memory leaks in one of the GIS application frontend.
+        `
+      ,
     },
     {
       name: 'Codecademy',
       industry: 'Learning',
-      logo: 'assets/images/codecademy_logo.jpg'
+      description: `Created practice content for the Python language.`
     },
   ];
 

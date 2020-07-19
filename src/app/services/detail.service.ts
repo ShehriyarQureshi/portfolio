@@ -17,62 +17,62 @@ export class DetailService {
     {
       class: 'fa-instagram',
       link: SOCIAL_LINKS.INSTAGRAM,
-      text: 'Get insights into my everyday life'
+      text: 'Instagram'
     },
     {
       class: 'fa-facebook',
       link: SOCIAL_LINKS.FACEBOOK,
-      text: 'See what I\'m doing locally'
+      text: 'Facebook'
     },
     {
       class: 'fa-linkedin',
       link: SOCIAL_LINKS.LINKEDIN,
-      text: 'See my thoughts on work culture and how I\'m changing it'
+      text: 'LinkedIn'
     },
     {
       class: 'fa-twitter',
       link: SOCIAL_LINKS.TWITTER,
-      text: 'Some of my most random thoughts'
+      text: 'Twitter'
     },
     {
       class: 'fa-snapchat-ghost',
       link: SOCIAL_LINKS.SNAPCHAT,
-      text: 'I crack eggs better than I crack jokes'
+      text: 'Snapchat'
     },
     {
       class: 'fa-microphone',
       link: SOCIAL_LINKS.ANCHOR,
-      text: 'Listen to my stories while you\'re on the go'
+      text: 'Podcast'
     },
     {
       class: 'fa-youtube',
       link: SOCIAL_LINKS.YOUTUBE,
-      text: 'Watch me talk about my life stories and thoughts'
+      text: 'YouTube'
     },
     {
       class: 'fa-whatsapp',
       link: SOCIAL_LINKS.WHATSAPP,
-      text: 'Reach out if you want to work with me'
+      text: 'WhatsApp'
     },
     {
       class: 'fa-github',
       link: SOCIAL_LINKS.GITHUB,
-      text: 'See my coding activity'
+      text: 'GitHub'
     },
     {
       class: 'fa-medium',
       link: SOCIAL_LINKS.MEDIUM,
-      text: 'Read some articles that I occasionally write'
+      text: 'Medium'
     },
     {
       class: 'fa-music',
       link: SOCIAL_LINKS.TIKTOK,
-      text: 'See me try to not be cringy on TikTok'
+      text: 'TikTok'
     },
     {
       class: 'fa-users',
       link: SOCIAL_LINKS.DISCORD,
-      text: 'Join the community'
+      text: 'Discord Server'
     },
   ];
 

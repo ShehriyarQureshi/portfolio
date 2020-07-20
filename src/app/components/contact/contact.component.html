@@ -9,7 +9,7 @@
           class="card col-md-3 col-6"
           *ngFor="let social of detailService.socials"
         >
-          <div class="row mt-5 mb-5">
+          <div class="row mt-md-5 mb-md-5 mt-2 mb-2">
             <div class="col-12">
               <a
                 href="{{ social.link }}"
@@ -17,7 +17,7 @@
                 [ngClass]="social.class"
               ></a>
             </div>
-            <div class="col-12 mt-3">
+            <div class="col-12 mt-2">
               <span style="font-size: 1.5rem;">{{ social.text }}</span>
             </div>
           </div>

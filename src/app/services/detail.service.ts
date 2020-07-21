@@ -2,80 +2,71 @@ import { Injectable } from '@angular/core';
 import { SOCIAL_LINKS } from '../global';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DetailService {
-
-  public about: any = {
-    name: 'Shehriyar Qureshi',
-    status: 'Web Full Stack Engineer',
-    heading: `Hello, I'm Shehriyar Qureshi`,
-    subHeading: `I help and build businesses using software`,
-  };
-
   public socials: Array<any> = [
     {
       class: 'fa-instagram',
       link: SOCIAL_LINKS.INSTAGRAM,
-      text: 'Instagram'
+      text: 'Instagram',
     },
     {
       class: 'fa-facebook',
       link: SOCIAL_LINKS.FACEBOOK,
-      text: 'Facebook'
+      text: 'Facebook',
     },
     {
       class: 'fa-linkedin',
       link: SOCIAL_LINKS.LINKEDIN,
-      text: 'LinkedIn'
+      text: 'LinkedIn',
     },
     {
       class: 'fa-twitter',
       link: SOCIAL_LINKS.TWITTER,
-      text: 'Twitter'
+      text: 'Twitter',
     },
     {
       class: 'fa-snapchat-ghost',
       link: SOCIAL_LINKS.SNAPCHAT,
-      text: 'Snapchat'
+      text: 'Snapchat',
     },
     {
       class: 'fa-microphone',
       link: SOCIAL_LINKS.ANCHOR,
-      text: 'Podcast'
+      text: 'Podcast',
     },
     {
       class: 'fa-youtube',
       link: SOCIAL_LINKS.YOUTUBE,
-      text: 'YouTube'
+      text: 'YouTube',
     },
     {
       class: 'fa-whatsapp',
       link: SOCIAL_LINKS.WHATSAPP,
-      text: 'WhatsApp'
+      text: 'WhatsApp',
     },
     {
       class: 'fa-github',
       link: SOCIAL_LINKS.GITHUB,
-      text: 'GitHub'
+      text: 'GitHub',
     },
     {
       class: 'fa-medium',
       link: SOCIAL_LINKS.MEDIUM,
-      text: 'Medium'
+      text: 'Medium',
     },
     {
       class: 'fa-music',
       link: SOCIAL_LINKS.TIKTOK,
-      text: 'TikTok'
+      text: 'TikTok',
     },
     {
       class: 'fa-users',
       link: SOCIAL_LINKS.DISCORD,
-      text: 'Discord Server'
+      text: 'Discord Server',
     },
   ];
 
-
-  constructor() { }
+  constructor() {}
 }

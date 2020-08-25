@@ -22,5 +22,4 @@ export const SOCIAL_LINKS: any = {
   WHATSAPP: 'https://wa.me/923340004051',
   TIKTOK: 'https://tiktok.com/@thatdevsherry',
   FIVERR: 'https://fiverr.com/shehriyarq',
-  DISCORD: 'https://discord.gg/JHyUFmn',
 };

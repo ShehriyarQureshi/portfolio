@@ -61,11 +61,6 @@ export class DetailService {
       link: SOCIAL_LINKS.TIKTOK,
       text: 'TikTok',
     },
-    {
-      class: 'fa-users',
-      link: SOCIAL_LINKS.DISCORD,
-      text: 'Discord Server',
-    },
   ];
 
   constructor() {}

@@ -1,7 +1,7 @@
 const gulp = require('gulp');
-const filter = require('gulp-rename');
-const rename = require('gulp-filter');
+const filter = require('gulp-filter');
 const purify = require('gulp-purify-css');
+const rename = require('gulp-rename');
 const gzip = require('gulp-gzip');
 const brotli = require('gulp-brotli');
 const clean = require('gulp-clean');
@@ -23,7 +23,7 @@ gulp.task('css', () => {
               glob pattern for CSS files, 
               point to files generated post angular prod build 
               */
-        '**/*.css',
+        '**/styles.*.css',
       ]),
     )
     .pipe(
@@ -88,7 +88,7 @@ Delete style output of Angular prod build
 gulp.task('clear-ng-css', () => {
   return gulp
     .src('../dist/portfolio/*')
-    .pipe(filter(['**/*.css']))
+    .pipe(filter(['**/styles*.css']))
     .pipe(clean({ force: true }));
 });
 

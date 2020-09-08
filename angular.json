@@ -27,18 +27,9 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets", "src/manifest.webmanifest"],
             "styles": [
-              {
-                "input": "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                "bundleName": "bootstrap"
-              },
-              {
-                "input": "node_modules/font-awesome/scss/font-awesome.scss",
-                "bundleName": "font-awesome"
-              },
-              {
-                "input": "src/styles.scss",
-                "bundleName": "global-styles"
-              }
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "src/styles.scss"
             ],
             "scripts": []
           },

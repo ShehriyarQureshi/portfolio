@@ -1,6 +1,11 @@
 .tagline {
   font-size: 6rem;
   font-weight: 300;
+  @media screen and (max-width: 500px) {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+  }
 }
 
 .tagline-mobile {

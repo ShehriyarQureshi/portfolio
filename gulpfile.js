@@ -12,7 +12,7 @@ gulp.task('css', () => {
     .src('dist/portfolio/*.css')
     .pipe(
       purgecss({
-        content: ['dist/portfolio/*.html'],
+        content: ['dist/portfolio/*.js', 'dist/portfolio/*.html'],
       }),
     )
     .pipe(gulp.dest('dist/test/'));

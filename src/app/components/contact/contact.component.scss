@@ -1,59 +1,11 @@
 .fa {
-  font-display: swap;
-  font-size: 3rem;
-  text-align: center;
-  vertical-align: middle;
+  font-size: 2rem;
   line-height: 6rem;
-  width: 6rem;
-  height: 6rem;
-  text-decoration: none;
   border-radius: 50%;
-  margin: 0;
   color: #f8f8fa;
   background: #444444;
-  @media screen and (max-width: 500px) {
-    font-size: 2rem;
-    line-height: 4rem;
-    width: 4rem;
-    height: 4rem;
-  }
+  padding: 2rem;
   @media screen and (max-width: 1024px) and (min-width: 500px) {
-    font-size: 4.5rem;
+    font-size: 2rem;
   }
-}
-
-.fa-twitter:hover {
-  background: #1da1f2;
-}
-
-.fa-youtube:hover {
-  background: #ff0000;
-}
-
-.fa-snapchat-ghost:hover {
-  background: #fffc00;
-}
-
-.fa-linkedin:hover {
-  background: #0072b1;
-}
-
-.fa-instagram:hover {
-  background: #833ab4;
-}
-
-.fa-facebook:hover {
-  background: #3b5998;
-}
-
-.fa-whatsapp:hover {
-  background: #4fce5d;
-}
-
-.fa-microphone:hover {
-  background: #8940fa;
-}
-
-.fa-users:hover {
-  background: #738adb;
 }

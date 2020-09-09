@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "optimizecss": "gulp --gulpfile build-scripts/optimize-css.gulpfile.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -24,13 +23,14 @@
     "@angular/pwa": "^0.803.28",
     "@angular/router": "^10.0.3",
     "@angular/service-worker": "^10.0.3",
-    "@fortawesome/fontawesome-svg-core": "^1.2.29",
-    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/angular-fontawesome": "0.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "bootstrap": "^4.5.0",
     "brotli-webpack-plugin": "^1.1.0",
     "compression-webpack-plugin": "^5.0.2",
     "core-js": "^2.6.11",
-    "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-brotli": "^3.0.0",
     "gulp-clean": "^0.4.0",

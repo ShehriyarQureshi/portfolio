@@ -1,5 +1,19 @@
 import { Injectable } from '@angular/core';
 import { SOCIAL_LINKS } from '../global';
+import {
+  faInstagram,
+  faFacebook,
+  faTwitter,
+  faLinkedin,
+  faSnapchat,
+  faYoutube,
+  faGithub,
+  faMedium,
+  faTiktok,
+  faWhatsapp,
+} from '@fortawesome/free-brands-svg-icons';
+
+import { faMicrophone } from '@fortawesome/free-solid-svg-icons';
 
 @Injectable({
   providedIn: 'root',
@@ -7,57 +21,57 @@ import { SOCIAL_LINKS } from '../global';
 export class DetailService {
   public socials: Array<any> = [
     {
-      class: 'fa-instagram',
+      icon: faInstagram,
       link: SOCIAL_LINKS.INSTAGRAM,
       text: 'Instagram',
     },
     {
-      class: 'fa-facebook',
+      icon: faFacebook,
       link: SOCIAL_LINKS.FACEBOOK,
       text: 'Facebook',
     },
     {
-      class: 'fa-linkedin',
+      icon: faLinkedin,
       link: SOCIAL_LINKS.LINKEDIN,
       text: 'LinkedIn',
     },
     {
-      class: 'fa-twitter',
+      icon: faTwitter,
       link: SOCIAL_LINKS.TWITTER,
       text: 'Twitter',
     },
     {
-      class: 'fa-snapchat-ghost',
+      icon: faSnapchat,
       link: SOCIAL_LINKS.SNAPCHAT,
       text: 'Snapchat',
     },
     {
-      class: 'fa-microphone',
+      icon: faMicrophone,
       link: SOCIAL_LINKS.ANCHOR,
       text: 'Podcast',
     },
     {
-      class: 'fa-youtube',
+      icon: faYoutube,
       link: SOCIAL_LINKS.YOUTUBE,
       text: 'YouTube',
     },
     {
-      class: 'fa-whatsapp',
+      icon: faWhatsapp,
       link: SOCIAL_LINKS.WHATSAPP,
       text: 'WhatsApp',
     },
     {
-      class: 'fa-github',
+      icon: faGithub,
       link: SOCIAL_LINKS.GITHUB,
       text: 'GitHub',
     },
     {
-      class: 'fa-medium',
+      icon: faMedium,
       link: SOCIAL_LINKS.MEDIUM,
       text: 'Medium',
     },
     {
-      class: 'fa-music',
+      icon: faTiktok,
       link: SOCIAL_LINKS.TIKTOK,
       text: 'TikTok',
     },

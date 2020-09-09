@@ -10,6 +10,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { GreeterComponent } from './components/greeter/greeter.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
 import { HomeComponent } from './home/home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    FontAwesomeModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],

@@ -11,20 +11,12 @@ export class DetailService {
       text: 'Instagram',
     },
     {
-      link: SOCIAL_LINKS.FACEBOOK,
-      text: 'Facebook',
-    },
-    {
       link: SOCIAL_LINKS.LINKEDIN,
       text: 'LinkedIn',
     },
     {
       link: SOCIAL_LINKS.TWITTER,
       text: 'Twitter',
-    },
-    {
-      link: SOCIAL_LINKS.SNAPCHAT,
-      text: 'Snapchat',
     },
     {
       link: SOCIAL_LINKS.ANCHOR,
@@ -35,12 +27,12 @@ export class DetailService {
       text: 'YouTube',
     },
     {
-      link: SOCIAL_LINKS.WHATSAPP,
-      text: 'WhatsApp',
+      link: SOCIAL_LINKS.SNAPCHAT,
+      text: 'Snapchat',
     },
     {
-      link: SOCIAL_LINKS.GITHUB,
-      text: 'GitHub',
+      link: SOCIAL_LINKS.FACEBOOK,
+      text: 'Facebook',
     },
     {
       link: SOCIAL_LINKS.MEDIUM,
@@ -49,6 +41,14 @@ export class DetailService {
     {
       link: SOCIAL_LINKS.TIKTOK,
       text: 'TikTok',
+    },
+    {
+      link: SOCIAL_LINKS.GITHUB,
+      text: 'GitHub',
+    },
+    {
+      link: SOCIAL_LINKS.WHATSAPP,
+      text: 'WhatsApp',
     },
   ];
 

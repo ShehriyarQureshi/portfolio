@@ -261,22 +261,6 @@
     "@angular-devkit/core" "8.3.29"
     rxjs "6.4.0"
 
-"@angular/animations@^10.0.3":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-10.1.0.tgz#6c56ff473c3163667ff98e9e3ee333097af803c9"
-  integrity sha512-0S2UKHDwIw/ZEISDrzhDhn4eVTNwjJW+msOYSaIm6ASRArtSVrwBz1ckD92HhurnnkHVwgTQsnU7yDYKfheaow==
-  dependencies:
-    tslib "^2.0.0"
-
-"@angular/cdk@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-10.2.0.tgz#0d8579367bb36cdea57564079414b5e4fccff61d"
-  integrity sha512-KYEBOuGimnWtYS8KvLz/dPWC2pzDzKh1ETkvyJCSm5yXZgNPdj1XatbGQrnQgy9vJwxjbZQ1s8P9tzWx1Dj7dg==
-  dependencies:
-    tslib "^2.0.0"
-  optionalDependencies:
-    parse5 "^5.0.0"
-
 "@angular/cli@^10.0.2":
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-10.1.0.tgz#f99df22ad832f58456089c98c7684fb5757be951"
@@ -340,13 +324,6 @@
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.1.0.tgz#000b78432be63247199d0f385c116b7f4db803bc"
   integrity sha512-lENt8Wk1vVsIiHeZVzXCZoHY13BxkqmulEw/AdUOh4VQxoU5K3z1o7fC1cvPHBvBEUnhbD2pDC1UHcY1G9yLRw==
-  dependencies:
-    tslib "^2.0.0"
-
-"@angular/forms@^10.0.3":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.1.0.tgz#1f55bb48b5a360cbee07c40d21840da5dec45d60"
-  integrity sha512-1onL5To+QAaI1v642WcjfchwwJrUqIPrJ40a4l5yvcd/iZydOBHS/bbw1nYjQDiKeGL2+gzpP04qrh4nHeG7OA==
   dependencies:
     tslib "^2.0.0"
 
@@ -8115,7 +8092,7 @@ parse5@6.0.1, parse5@^6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parse5@^5.0.0, parse5@^5.1.0, parse5@^5.1.1:
+parse5@^5.1.0, parse5@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
   integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
@@ -11195,11 +11172,6 @@ wcwidth@^1.0.1:
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
-
-web-animations-js@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/web-animations-js/-/web-animations-js-2.3.2.tgz#a51963a359c543f97b47c7d4bc2d811f9fc9e153"
-  integrity sha512-TOMFWtQdxzjWp8qx4DAraTWTsdhxVSiWa6NkPFSaPtZ1diKUxTn4yTix73A1euG1WbSOMMPcY51cnjTIHrGtDA==
 
 webdriver-js-extender@2.1.0:
   version "2.1.0"

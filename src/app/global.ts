@@ -1,5 +1,5 @@
 export const TAB_TITLE: any = {
-  HOME: 'Shehriyar | Software Engineer',
+  HOME: 'Shehriyar Qureshi | Software Engineer & Digital Creator',
 };
 
 export const META_TAGS: any = {

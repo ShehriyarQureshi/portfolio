@@ -5,7 +5,7 @@ export const TAB_TITLE: any = {
 export const META_TAGS: any = {
   DESCRIPTION: {
     name: 'description',
-    content: 'Software Engineer | Digital Creator',
+    content: 'Self-Taught Software Engineer from Pakistan. Documenting my journey for others to benefit',
   },
 };
 

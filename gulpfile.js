@@ -9,10 +9,10 @@ const { series, parallel } = require('gulp');
 
 gulp.task('css', () => {
   return gulp
-    .src('dist/portfolio/*.css')
+    .src('dist/portfolio/browser/*.css')
     .pipe(
       purgecss({
-        content: ['dist/portfolio/*.js', 'dist/portfolio/*.html'],
+        content: ['dist/portfolio/browser/*.js', 'dist/portfolio/browser/*.html'],
       }),
     )
     .pipe(gulp.dest('dist/test/'));
@@ -32,13 +32,13 @@ gulp.task('css-br', () => {
 
 gulp.task('clear-ng-css', () => {
   return gulp
-    .src('dist/portfolio/*')
+    .src('dist/portfolio/browser/*')
     .pipe(filter(['**/styles*.css*']))
     .pipe(clean({ force: true }));
 });
 
 gulp.task('copy-op-css', () => {
-  return gulp.src('dist/test/*').pipe(gulp.dest('dist/portfolio'));
+  return gulp.src('dist/test/*').pipe(gulp.dest('dist/portfolio/browser'));
 });
 // #6 | Clear temp folder
 gulp.task('clear-test', () => {

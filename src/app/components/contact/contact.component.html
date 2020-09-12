@@ -5,14 +5,10 @@
     </div>
     <div class="offset-md-1 col-md-10 offset-1 col-10 text-center">
       <div class="row">
-        <div class="col-md-2 col-6" *ngFor="let social of detailService.socials">
-          <div class="row mt-md-5 mb-md-5 mb-5">
-            <div class="col-12 mt-2">
-              <a href="{{ social.link }}">
-                <span style="font-size: 2rem">{{ social.text }}</span>
-              </a>
-            </div>
-          </div>
+        <div class="col-md-2 col-6 mt-5 mb-5" *ngFor="let social of detailService.socials">
+          <a href="{{ social.link }}">
+            <span style="font-size: 2rem">{{ social.text }}</span>
+          </a>
         </div>
       </div>
     </div>

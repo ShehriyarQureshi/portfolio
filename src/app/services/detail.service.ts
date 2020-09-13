@@ -7,6 +7,18 @@ import { SOCIAL_LINKS } from '../global';
 export class DetailService {
   public socials: Array<any> = [
     {
+      link: SOCIAL_LINKS.ANCHOR,
+      text: 'Podcast',
+    },
+    {
+      link: SOCIAL_LINKS.YOUTUBE,
+      text: 'YouTube',
+    },
+    {
+      link: SOCIAL_LINKS.FACEBOOK,
+      text: 'Facebook',
+    },
+    {
       link: SOCIAL_LINKS.INSTAGRAM,
       text: 'Instagram',
     },
@@ -19,20 +31,8 @@ export class DetailService {
       text: 'Twitter',
     },
     {
-      link: SOCIAL_LINKS.ANCHOR,
-      text: 'Podcast',
-    },
-    {
-      link: SOCIAL_LINKS.YOUTUBE,
-      text: 'YouTube',
-    },
-    {
       link: SOCIAL_LINKS.SNAPCHAT,
       text: 'Snapchat',
-    },
-    {
-      link: SOCIAL_LINKS.FACEBOOK,
-      text: 'Facebook',
     },
     {
       link: SOCIAL_LINKS.MEDIUM,

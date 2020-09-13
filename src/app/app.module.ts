@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { GreeterComponent } from './components/greeter/greeter.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeComponent } from './home/home.component';
     TechnologiesComponent,
     CompaniesWorkedComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

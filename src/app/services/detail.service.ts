@@ -35,8 +35,8 @@ export class DetailService {
       text: 'Snapchat',
     },
     {
-      link: SOCIAL_LINKS.MEDIUM,
-      text: 'Medium',
+      link: SOCIAL_LINKS.BLOG,
+      text: 'Blog',
     },
     {
       link: SOCIAL_LINKS.TIKTOK,

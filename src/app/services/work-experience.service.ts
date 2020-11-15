@@ -9,6 +9,7 @@ export class WorkExperienceService {
       name: 'Breu Inc',
       description: `
         Building networking tools using the Rust programming language.
+        Learning to lead a remote, agile team.
         `,
     },
     {

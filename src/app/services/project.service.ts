@@ -9,7 +9,7 @@ export class ProjectService {
       title: 'Rust',
       description: `
       My first systems programming experience related to
-      networking tools dealing with OSI Layer 3.
+      networking tools.
       `,
     },
     {

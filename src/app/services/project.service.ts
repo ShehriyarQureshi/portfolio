@@ -13,20 +13,20 @@ export class ProjectService {
       `,
     },
     {
-      title: 'Angular',
-      description: `
-      Built SaaS dashboards and consumed GIS APIs written in TypeScript.
-      `,
-    },
-    {
       title: 'Java',
       description: 'Built backend APIs to be consumed by other developers.',
+    },
+    {
+      title: 'Angular',
+      description: `
+      Built SaaS dashboards and consumed GIS APIs.
+      `,
     },
     {
       title: 'Python',
       description: `
       Used pure Python for learning programming and building hobby projects
-      such as adding support for Temporal Tables in sqlite.
+      such as adding support for Temporal Tables in SQLite.
       `,
     },
   ];

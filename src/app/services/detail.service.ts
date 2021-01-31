@@ -30,6 +30,10 @@ export class DetailService {
       link: SOCIAL_LINKS.GITHUB,
       text: 'GitHub',
     },
+    {
+      link: SOCIAL_LINKS.EMAIL,
+      text: 'Email',
+    },
   ];
 
   constructor() {}

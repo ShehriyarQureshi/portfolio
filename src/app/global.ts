@@ -16,4 +16,5 @@ export const SOCIAL_LINKS: any = {
   ANCHOR: 'https://anchor.fm/thatdevsherry',
   GITHUB: 'https://github.com/thatdevsherry',
   BLOG: 'https://blog.thatdevsherry.com',
+  EMAIL: 'mailto:thatdevsherry@protonmail.ch'
 };

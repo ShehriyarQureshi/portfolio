@@ -12,9 +12,9 @@ export const META_TAGS: any = {
 export const SOCIAL_LINKS: any = {
   LINKEDIN: 'https://linkedin.com/in/thatdevsherry',
   TWITTER: 'https://twitter.com/thatdevsherry',
-  YOUTUBE: 'https://www.youtube.com/channel/UCNdlgpsa0d00kmLZkJiaUpQ',
+  YOUTUBE: 'https://www.youtube.com/channel/UCDtACM2u-CYBE82RoKfA3NQ',
   ANCHOR: 'https://anchor.fm/thatdevsherry',
   GITHUB: 'https://github.com/thatdevsherry',
   BLOG: 'https://blog.thatdevsherry.com',
-  EMAIL: 'mailto:thatdevsherry@protonmail.ch'
+  EMAIL: 'mailto:thatdevsherry@gmail.com'
 };
